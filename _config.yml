@@ -3,9 +3,6 @@ plugins:
 relative_links:
   enabled: true
   collections: true
-include:
-  - README.md
-  - score.md
 
 
 theme: jekyll-theme-cayman
