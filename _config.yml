@@ -6,8 +6,10 @@ relative_links:
 include:
   - README.md
 
-markdown: redcarpet
-  redcarpet:
-    extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data"]
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
 
 theme: jekyll-theme-cayman
