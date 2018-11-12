@@ -5,5 +5,3 @@
 - [赛程](schedule.md)
 - [赛果](score.md)
 
-ha
-g
