@@ -12,5 +12,5 @@
 ## 参考
 - [赛程](schedule.md)
 - [赛果](score.md)
-- [测试](/_posts/1.md)
+- [测试](1.md)
 
