@@ -7,6 +7,17 @@
 |1|11月4日22点00|1号队[荡秋千]|2号队[超有趣]|1队|
 |||||
 
+|Tables         | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+|Tables         | Are           | Cool  |
+| ------------- | ------------- | ----- |
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
 
 场次：总第2局|本轮第2局
 时间：11月4日22点30
