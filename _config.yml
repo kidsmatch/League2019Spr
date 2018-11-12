@@ -5,6 +5,7 @@ relative_links:
   collections: true
 include:
   - README.md
+  - score.md
 
 markdown: kramdown
 kramdown:
