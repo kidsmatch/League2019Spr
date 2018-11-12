@@ -6,3 +6,4 @@
 - [赛果](score.md)
 
 ha
+g
