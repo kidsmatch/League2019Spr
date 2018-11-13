@@ -1,6 +1,6 @@
 # Kids联赛2018 官方主页
 
-[规则](rule.md) [赛程时间表](schedule.md) [季前赛 赛程赛果](score.md)
+[规则](rule.md) [赛程时间表](schedule.md) [季前赛](score.md)
 
 ## 1.赛程预告
 ### 第一轮 [捶死安琪拉Round]
