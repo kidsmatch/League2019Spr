@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Kids联赛2018
 ---
 
