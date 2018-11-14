@@ -2,7 +2,11 @@
 
 ---
 
+{% highlight html linenos %}
 <font color=red>"捶死安琪拉Round"</font>
+{% endhighlight %}
+
+
 - 轮次：1
 - 时间：2018年11月11日至11月17日
 - 冠名：Kids.weiwei
