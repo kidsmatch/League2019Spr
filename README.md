@@ -2,7 +2,7 @@
 
 [规则](rule.md) | [赛程时间表](schedule.md) | [季前赛](score.md)
 
-[第1轮](round1.md) | [第2轮](round2.md) | [第3轮](round3.md) 
+[第1轮](round1.md) | [第2轮](round2.md) | [第3轮](round3.md) |
 [第4轮](round4.md) | [第5轮](round5.md) | [第6轮](round6.md) 
 
 ## 1.赛程预告
