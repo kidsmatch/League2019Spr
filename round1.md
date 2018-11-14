@@ -10,14 +10,14 @@
 
 ## 本轮赛果
 
-|编号| 时间          | 主队         | 客队      | 胜方  |总览|数据|
-|---|--------------|------------- | --------- |----- |---|---|
-| 1 | 11月12日<br>18点00 | [2队](team2.md)  |[1队](team1.md)  |[1队](team1.md)|[总览](pic/r1_1_2v1_score.jpg) |[数据](pic/r1_1_2v1_data.jpg) |
-| 2 | 11月13日<br>22点00 | [1队](team1.md)  |[3队](team3.md)|[1队](team1.md)|[总览](pic/r1_2_1v3_score.jpg)| [数据](pic/r1_2_1v3_data.jpg) |
-| 3 | 11月13日<br>22点30 | [3队](team3.md)|[1队](team1.md)  |[1队](team1.md)|[总览](pic/r1_3_3v1_score.jpg)| [数据](pic/r1_3_3v1_data.jpg) |
-| 4 | 11月日点 | [2队](team2.md)  |[3队](team3.md)   ||[总览](pic/r1_1_2v1_score.jpg)| [数据](pic/r1_1_2v1_data.jpg) |
-| 5 | 11月日点 | [3队](team3.md)|[2队](team2.md) ||[总览](pic/r1_1_2v1_score.jpg)| [数据](pic/r1_1_2v1_data.jpg) |
-| 6 | 11月日点 | [1队](team1.md)  |[2队](team2.md)   ||[总览](pic/r1_1_2v1_score.jpg)|[数据](pic/r1_1_2v1_data.jpg) |
+| 时间          | 主队         | 客队      | 胜方  |总览|数据|
+|--------------|------------- | --------- |----- |---|---|
+ | 11月12日<br>18点00 | [2队](team2.md)  |[1队](team1.md)  |[1队](team1.md)|[总览](pic/r1_1_2v1_score.jpg) |[数据](pic/r1_1_2v1_data.jpg) |
+ | 11月13日<br>22点00 | [1队](team1.md)  |[3队](team3.md)|[1队](team1.md)|[总览](pic/r1_2_1v3_score.jpg)| [数据](pic/r1_2_1v3_data.jpg) |
+ | 11月13日<br>22点30 | [3队](team3.md)|[1队](team1.md)  |[1队](team1.md)|[总览](pic/r1_3_3v1_score.jpg)| [数据](pic/r1_3_3v1_data.jpg) |
+ | 11月日点 | [2队](team2.md)  |[3队](team3.md)   ||[总览](pic/r1_1_2v1_score.jpg)| [数据](pic/r1_1_2v1_data.jpg) |
+ | 11月日点 | [3队](team3.md)|[2队](team2.md) ||[总览](pic/r1_1_2v1_score.jpg)| [数据](pic/r1_1_2v1_data.jpg) |
+ | 11月日点 | [1队](team1.md)  |[2队](team2.md)   ||[总览](pic/r1_1_2v1_score.jpg)|[数据](pic/r1_1_2v1_data.jpg) |
 
 ## 本轮积分榜
 
