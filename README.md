@@ -24,8 +24,9 @@
 ### 正赛第一轮[捶死安琪拉Round]
 - 11月12日18点00    
 2号队[超有趣]  负  1号队[荡秋千] 
-[第一局统计信息](https://upload.cc/i4/BuHOi.jpg)
 
+[第一局统计信息](https://upload.cc/i4/BuHOi.jpg)
+[站内图](pic/r1_2v1.jpg)
 
 - 11月13日22点00    
  1队 [荡秋千](team1.md)  2:0 3队[全能冠军](team3.md)
