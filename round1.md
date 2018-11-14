@@ -2,11 +2,10 @@
 
 ---
 
-
+<font color=red>"捶死安琪拉Round"</font>
 - 轮次：1
 - 时间：2018年11月11日至11月17日
 - 冠名：Kids.weiwei
-- <font color=red>"捶死安琪拉Round"</font>
 
 
 ## 本轮赛果
