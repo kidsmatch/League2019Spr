@@ -12,9 +12,9 @@
 
 | 时间          | 主队         | 客队        |||
 |------------|:------------|:--------- |---|---|
- | 11月12日18点00 | [2队](team2.md)  |[1队](team1.md)胜|[人头](pic/r1_1_2v1_score.jpg) |[输出](pic/r1_1_2v1_data.jpg) |
- | 11月13日22点00 | [1队](team1.md)胜  |[3队](team3.md)|[人头](pic/r1_2_1v3_score.jpg)| [输出](pic/r1_2_1v3_data.jpg) |
- | 11月13日22点30 | [3队](team3.md)|[1队](team1.md)胜  |[人头](pic/r1_3_3v1_score.jpg)| [输出](pic/r1_3_3v1_data.jpg) |
+ | 11月12日18:00 | [2队](team2.md)负  |[1队](team1.md)胜|[人头](pic/r1_1_2v1_score.jpg) |[输出](pic/r1_1_2v1_data.jpg) |
+ | 11月13日22:00 | [1队](team1.md)胜  |[3队](team3.md)负|[人头](pic/r1_2_1v3_score.jpg)| [输出](pic/r1_2_1v3_data.jpg) |
+ | 11月13日22:30 | [3队](team3.md)负  |[1队](team1.md)胜  |[人头](pic/r1_3_3v1_score.jpg)| [输出](pic/r1_3_3v1_data.jpg) |
  | 11月日点 | [2队](team2.md)  |[3队](team3.md)   |[人头](pic/r1_1_2v1_score.jpg)| [输出](pic/r1_1_2v1_data.jpg) |
  | 11月日点 | [3队](team3.md)|[2队](team2.md) |[人头](pic/r1_1_2v1_score.jpg)| [输出](pic/r1_1_2v1_data.jpg) |
  | 11月日点 | [1队](team1.md)  |[2队](team2.md)   |[人头](pic/r1_1_2v1_score.jpg)|[输出](pic/r1_1_2v1_data.jpg) |
