@@ -10,14 +10,14 @@
 
 ## 本轮赛果
 
-|编号| 时间          | 主队         | 客队      | 胜方  |记录|
-|---|--------------|------------- | --------- |----- |---|
-| 1 | 11月12日18点00 | 2队[超有趣](team2.md)  |1队[荡秋千](team1.md)  |荡秋千|[总览](pic/r1_1_2v1_score.jpg) [数据](pic/r1_1_2v1_data.jpg) |
-| 2 | 11月13日22点00 | 1队[荡秋千](team1.md)  |3队[全能冠军](team3.md)|荡秋千|[总览](pic/r1_1_2v1_score.jpg) [数据](pic/r1_1_2v1_data.jpg) |
-| 3 | 11月13日22点30 | 3队[全能冠军](team3.md)|1队[荡秋千](team1.md)  |荡秋千|[总览](pic/r1_1_2v1_score.jpg) [数据](pic/r1_1_2v1_data.jpg) |
-| 4 | 11月日点 | 2队[超有趣](team2.md)  |3队[全能冠军](team3.md)   ||[总览](pic/r1_1_2v1_score.jpg) [数据](pic/r1_1_2v1_data.jpg) |
-| 5 | 11月日点 | 3队[全能冠军](team3.md)|2队[超有趣](team2.md) ||[总览](pic/r1_1_2v1_score.jpg) [数据](pic/r1_1_2v1_data.jpg) |
-| 6 | 11月日点 | 1队[荡秋千](team1.md)  |2队[超有趣](team2.md)   ||[总览](pic/r1_1_2v1_score.jpg) [数据](pic/r1_1_2v1_data.jpg) |
+|编号| 时间          | 主队         | 客队      | 胜方  |总览|数据|
+|---|--------------|------------- | --------- |----- |---|---|
+| 1 | 11月12日18点00 | [2队(team2.md)  |[1队](team1.md)  |[1队](team1.md)|[总览](pic/r1_1_2v1_score.jpg) [数据](pic/r1_1_2v1_data.jpg) |
+| 2 | 11月13日22点00 | [1队(team1.md)  |[3队](team3.md)|[1队](team1.md)|[总览](pic/r1_2_1v3_score.jpg) [数据](pic/r1_2_1v3_data.jpg) |
+| 3 | 11月13日22点30 | [3队(team3.md)|[1队](team1.md)  |[1队](team1.md)|[总览](pic/r1_3_3v1_score.jpg) [数据](pic/r1_3_3v1_data.jpg) |
+| 4 | 11月日点 | [2队](team2.md)  |[3队](team3.md)   ||[总览](pic/r1_1_2v1_score.jpg) [数据](pic/r1_1_2v1_data.jpg) |
+| 5 | 11月日点 | [3队](team3.md)|[2队](team2.md) ||[总览](pic/r1_1_2v1_score.jpg) [数据](pic/r1_1_2v1_data.jpg) |
+| 6 | 11月日点 | [1队](team1.md)  |[2队](team2.md)   ||[总览](pic/r1_1_2v1_score.jpg) [数据](pic/r1_1_2v1_data.jpg) |
 
 ## 本轮积分榜
 
