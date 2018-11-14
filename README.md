@@ -1,3 +1,4 @@
+﻿hello
 # Kids联赛2018 官方主页
 
 [规则](rule.md) [赛程时间表](schedule.md) [季前赛](score.md)
