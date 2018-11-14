@@ -2,7 +2,7 @@
 
 [规则](rule.md) \| [季前赛](pre_season.md)
 
-1队[荡秋千](team1.md) \| 2队[超有趣](team2.md) \| 3队[全能冠军](team3.md)
+[1队荡秋千](team1.md) \| [2队超有趣](team2.md) \| [3队全能冠军](team3.md)
 
 [第1轮](round1.md) \| [第2轮](round2.md) \| [第3轮](round3.md) \| [第4轮](round4.md) \| [第5轮](round5.md) \| [第6轮](round6.md) 
 
