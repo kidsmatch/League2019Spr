@@ -26,3 +26,12 @@
 | 1队[荡秋千](team1.md)   | 3  | 3  | 0 | 3 |
 | 2队[超有趣](team2.md)   | 3  | 1  | 2 | 1 |
 | 3队[全能冠军](team3.md) | 4  | 1 | 3 | 1 |
+
+## 战绩图
+|人头 |输出|
+|:---:|:---:|
+|![1] | ![2]|
+
+[1]: https://wx3.sinaimg.cn/mw690/007tLfirgy1fx8pzdggctj30u028ywr3.jpg 
+
+[2]: https://wx2.sinaimg.cn/mw690/007tLfirgy1fx8pzev52zj30u029412c.jpg 
