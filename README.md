@@ -17,11 +17,10 @@
 | 2队[超有趣](team2.md)   | 3  | 1  | 2 | 1 |
 | 3队[全能冠军](team3.md) | 4  | 1 | 3 | 1 |
 
+## [战绩截图](https://m.weibo.cn/u/6852703787)
 
 ## 参考链接
-[规则](rule.md) \| [季前赛](pre_season.md) \|[weibo](https://m.weibo.cn/u/6852703787)
-
-[1队荡秋千](team1.md) \| [2队超有趣](team2.md) \| [3队全能冠军](team3.md)
+[规则](rule.md) \| [季前赛](pre_season.md) \| [1队荡秋千](team1.md) \| [2队超有趣](team2.md) \| [3队全能冠军](team3.md)
 
 [第1轮](round1.md) \| [第2轮](round2.md) \| [第3轮](round3.md) \| [第4轮](round4.md) \| [第5轮](round5.md) \| [第6轮](round6.md) 
 
