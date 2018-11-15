@@ -12,7 +12,7 @@
 
 | 时间          | 主队         | 客队        |||
 |------------|:------------:|:---------:|---|---|
- | 11月12日18:00 | [2队](team2.md)<br>负  | [这里][#m1] |[输出](https://wx2.sinaimg.cn/mw690/007tLfirgy1fx8pzev52zj30u029412c.jpg) |
+ | 11月12日18:00 | [2队](team2.md)<br>负  | [这里](#m1) |[输出](https://wx2.sinaimg.cn/mw690/007tLfirgy1fx8pzev52zj30u029412c.jpg) |
  | 11月13日22:00 | [**1队**](team1.md)<br>**胜**  |[3队](team3.md)<br>负|[人头](pic/r1_2_1v3_score.jpg)| [输出](pic/r1_2_1v3_data.jpg) |
  | 11月13日22:30 | [3队](team3.md)<br>负  |[**1队**](team1.md)<br>**胜**  |[人头](pic/r1_3_3v1_score.jpg)| [输出](pic/r1_3_3v1_data.jpg) |
  | 11月14日22:30 | [**2队**](team2.md)<br>**胜**  |[3队](team3.md)<br>负   |[人头](pic/r1_4_2v3_score.jpg)| [输出](pic/r1_4_2v3_data.jpg) |
