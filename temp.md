@@ -1,8 +1,8 @@
-#1
+# 战绩图
 
-head | head
------|-----
-![1] | ![2]
+|人头 |输出|
+|:---:|:---:|
+|![1] | ![2]|
 
 [1]: https://wx3.sinaimg.cn/mw690/007tLfirgy1fx8pzdggctj30u028ywr3.jpg 
 
