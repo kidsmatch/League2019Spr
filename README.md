@@ -19,7 +19,7 @@
 
 
 ## 参考链接
-[规则](rule.md) \| [季前赛](pre_season.md) 
+[规则](rule.md) \| [季前赛](pre_season.md) \|[weibo](https://m.weibo.cn/u/6852703787)
 
 [1队荡秋千](team1.md) \| [2队超有趣](team2.md) \| [3队全能冠军](team3.md)
 
