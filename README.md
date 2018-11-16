@@ -27,7 +27,14 @@
 
 [规则](rule.md)\|[赞助商][spr]\|[1队荡秋千](team1.md)\|[2队超有趣](team2.md)\|[3队全能冠军](team3.md)
 
-[季前赛](pre_season.md)[第1轮](round1.md)\|[第2轮](round2.md)\|[第3轮](round3.md)\|[第4轮](round4.md)\|[第5轮](round5.md)\|[第6轮](round6.md) 
+[季前赛][r0]\\[第1轮][r1]\|[第2轮][r2]\|[第3轮][r3]\|[第4轮][r4]\|[第5轮][r5]\|[第6轮][r6]
 
 [spr]: sponsor.md
+[r0]: round0.md
+[r1]: round1.md
+[r2]: round2.md
+[r3]: round3.md
+[r4]: round4.md
+[r5]: round5.md
+[r6]: round6.md
 
