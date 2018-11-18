@@ -1,9 +1,11 @@
 # 1队"荡秋千"
 ---
-{{ site.time }}
+
 [回到主页](README.md)
 
 ## 基本信息
+{{ site.time | in_time_zone:"Beijing"}}
+
 - 队长：Kids.烧酒
 - 人数：10人
 
