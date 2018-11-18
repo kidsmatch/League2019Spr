@@ -25,12 +25,11 @@
 |飞虎    | Kids.王者虎    | 0 ||
 
 # haha
+{% assign info = site.data.records | where:"team","1队" | group_by:"player" %}
 
 
-{% for r in site.data.records | where:"team","1队" | group_by:"player" %}
- hello
- {{r.name}} 
- world
+{% for r in info %}
+ hello: 1 {{r.name}}  2
 {% endfor %}
 
 # orin
