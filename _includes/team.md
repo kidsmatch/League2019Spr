@@ -1,9 +1,9 @@
 
 {% assign team=site.data.team | where: "team", include.team_name | first %}
-{{ team }}
+
 # {{ include.team_name }} " {{ team.name }} "
 ---
-[回到主页](README.md)
+[回到主页](../README.md)
 
 ## 基本信息
 本页面是模板页面，构建于 {{ site.time }}
