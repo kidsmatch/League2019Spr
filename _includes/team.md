@@ -1,4 +1,4 @@
-# {{ include.team_name }} " {{ site.data.team[include.team_name].name }}
+# {{ include.team_name }} " {{ site.data.team[include.team_name].name }} "
 ---
 [回到主页](README.md)
 
