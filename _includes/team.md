@@ -13,8 +13,8 @@
 ## 出场信息(自动生成)
 
 {% assign info = site.data.records | where:"team", include.team_name | group_by:"player" %}
-|队员|上场|英雄|" {{ -}}
-|---|---|---|" {{ -}}
+|队员|上场|英雄| {{ -}}
+|---|---|---| {{ -}}
 {% for r in info %}
   {{r.name}}  |  {{ r.items | size }} |  {% for j in r.items %}  {{j.hero}}  {% endfor %}  {{ "|" -}}
 {% endfor %}
@@ -22,7 +22,7 @@
 ## 核心数据
 
 {{ "|成员|K|D|" -}}
-{{ "|---|---|---|" -}}
+{{ "|----|----|----|" -}}
 {% for r in info %}
   {% assign matches = r.items %}
   {% assign k = 0 %}
@@ -33,5 +33,5 @@
       {% assign d = d | plus: match.D %}
       {% assign a = a | plus: match.A %}
   {% endfor %}
-  | {{ r.name }} | {{ k |append: d |append: a -}} 
+  | {{ r.name }} | {{ k }} | {{ d }} | {{ a -}} 
 {% endfor %}
