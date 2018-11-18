@@ -22,17 +22,17 @@
 |乃鑑    | Kids.烟雨    | 0||
 |飞虎    | Kids.王者虎    | 0 ||
 
-{{ site.data.records | where:"team","1队" | group_by:"player" }}
-
-
 # haha
 {% capture team_info %}
    {{ site.data.records | where:"team","1队" | group_by:"player" }}
 {% endcapture %}
 
 {% for r in team_info %}
-| {{r.name}} | {{ r.items | size }} |
+| {{r}} | 
 {% endfor %}
+
+# orin
+{{ site.data.records | where:"team","1队" | group_by:"player" }}
 
 
 # wiwi
