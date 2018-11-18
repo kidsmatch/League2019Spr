@@ -8,8 +8,8 @@
 ## 基本信息
 本页面是模板页面，构建于 {{ site.time }}
 
-- 队长：{{ site.data.team[include.team_name].leader }}
-- 人数：{{ site.data.team[include.team_name].count }}
+- 队长：{{ team.leader }}
+- 人数：{{ team.count }}
 
 ## 出场信息(自动生成)
 
