@@ -4,5 +4,5 @@ relative_links:
   enabled: true
   collections: true
 
-timezone: '+0800'
+timezone: +800
 theme: jekyll-theme-leap-day
