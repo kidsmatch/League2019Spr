@@ -33,5 +33,5 @@
       {% assign d = d | plus: match.D %}
       {% assign a = a | plus: match.A %}
   {% endfor %}
-| {{ r.name }} | {{ k }} | {{ d }} | {{ a }}  {{ "|" -}} 
+| {{ r.name }} | {{ k }} | {{ d }} | {{ a }}  {{ "|" }} 
 {% endfor %}
