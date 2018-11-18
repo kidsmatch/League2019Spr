@@ -5,7 +5,7 @@
 [回到主页](index.html)
 
 ## 基本信息
-本页面是模板页面，构建于 {{ site.time }}
+本页面构建于 {{ site.time }}
 
 - 队长：{{ team.leader }}
 - 人数：{{ team.count }}
