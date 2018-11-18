@@ -19,3 +19,21 @@
 {% for r in info %}
   {{r.name}}  |  {{ r.items | size }} |  {% for j in r.items %}  {{j.hero}}  {% endfor %}  {{ "|" -}}
 {% endfor %}
+
+## win
+{% for r in info %}
+  {% assign matches = r.items %}
+  
+  {% assign kills = 0 %}
+  {% for match in matches %}
+      {% assign kills = kills | plus match.K %}
+      
+      
+      
+      
+  {% endfor %}
+  
+  - {{ r.name }} kills: {{ kills }} 
+
+
+{% endfor %}
