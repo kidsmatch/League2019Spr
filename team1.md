@@ -22,11 +22,9 @@
 |乃鑑    | Kids.烟雨    | 0||
 |飞虎    | Kids.王者虎    | 0 ||
 
+{{ now }}
 
-<ul>
-{ % for r in site.data.records % }
-  
-      { { r.player } } { { r.hero } }
+{% for r in site.data.records %}
+     {{ r.player }} {{ r.hero }}
+{% endfor %}
 
-{ % endfor % }
-</ul>
