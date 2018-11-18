@@ -32,8 +32,14 @@
 |---|---|---|
 {% for r in info %}
 
- {{r.name}}   {{ r.items | size }} | {{ r.items.hero | inspect}} |
-
+ {{r.name}}   {{ r.items | size }} | 
+ 
+ {% for j in r.items %}
+     {{j.hero }}
+ {% endfor %}
+ 
+ |
+ 
 {% endfor %}
 
 # orin
