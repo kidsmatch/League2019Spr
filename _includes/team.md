@@ -1,4 +1,4 @@
-{% assign team=site.data.team | where "team", include.team_name }} "
+{% assign team=site.data.team | where "team", include.team_name | first %}
 ---
 
 # {{ include.team_name }} " {{ team.name }} "
