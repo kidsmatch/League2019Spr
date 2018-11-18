@@ -1,6 +1,3 @@
----
-大坏蛋
-你好哈哈哈
 
 # {{ include.team_name }} " {{ team.name }} "
 ---
