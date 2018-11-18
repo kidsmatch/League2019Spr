@@ -1,6 +1,6 @@
 # 1队"荡秋千"
 ---
-
+{{ site.time }}
 [回到主页](README.md)
 
 ## 基本信息
@@ -36,7 +36,7 @@
 
 
 # wiwi
-{{ site.time }}
+
 
 {% for r in site.data.records %}
      {{ r.player }} {{ r.hero }}
