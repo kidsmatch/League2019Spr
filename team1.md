@@ -25,6 +25,14 @@
 {{ site.data.record | where:"team","1队" | group_by:"player" }}
 
 
+# haha
+{% capture team_info %}
+   {{ site.data.record | where:"team","1队" | group_by:"player" }}
+{% endcapture %}
+
+{{team_info}}
+
+# wiwi
 {{ site.time }}
 
 {% for r in site.data.records %}
