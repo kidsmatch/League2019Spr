@@ -1,5 +1,5 @@
 
-{% assign team=site.data.team | where "team", include.team_name  %}
+{% assign team=site.data.team | where: "team", include.team_name  %}
 {{ team }}
 # {{ include.team_name }} " {{ team.name }} "
 ---
