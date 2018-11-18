@@ -1,3 +1,5 @@
+{% include team.md team_name="1队" %}
+
 # 3队"全能冠军" 
 ---
 [回到主页](README.md)
