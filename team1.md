@@ -25,11 +25,9 @@
 |飞虎    | Kids.王者虎    | 0 ||
 
 # haha
-{% capture team_info %}
-   {{ site.data.records | where:"team","1队" | group_by:"player" }}
-{% endcapture %}
 
-{% for r in team_info %}
+
+{% for r in site.data.records | where:"team","1队" | group_by:"player" %}
  hello
  {{r.name}} 
  world
