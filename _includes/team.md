@@ -3,7 +3,7 @@
 
 # {{ include.team_name }} " {{ team.name }} "
 ---
-[回到主页](README.html)
+[回到 主页](index.html)
 
 ## 基本信息
 本页面是模板页面，构建于 {{ site.time }}
