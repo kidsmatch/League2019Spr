@@ -17,6 +17,7 @@
 |----|----|----|
 {%- for r in info -%}
 | {{r.name}}  |  {{ r.items | size }} |  {% for j in r.items %}  {{j.hero}}  {% endfor %}  {{ "|" }}
+
 {%- endfor -%}
 
 ## 核心数据
@@ -34,4 +35,5 @@
       {%- assign a = a | plus: match.A -%}
   {%- endfor -%}
 | {{ r.name }} | {{ k }} | {{ d }} | {{ a }}  |
+
 {%- endfor -%}
