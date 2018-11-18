@@ -27,13 +27,9 @@
   {% assign kills = 0 %}
   {% for match in matches %}
       {% assign kills = kills | plus match.K %}
-      
-      
-      
-      
   {% endfor %}
-  
-  - {{ r.name }} kills: {{ kills }} 
+ 
+  - {{ r.name }} kills: {{ kills -}} 
 
 
 {% endfor %}
