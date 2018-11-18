@@ -4,7 +4,12 @@
 [回到主页](README.md)
 
 ## 基本信息
-{{ site.time | in_time_zone:"Beijing"}}
+本页面构建于 {{ site.time }}
+本页面编辑于 {{ page.date }}
+
+{% for one in site.static_files %}
+   {{ one.name }} {{ one.modified_time -}}
+{% endfor %}
 
 - 队长：Kids.烧酒
 - 人数：10人
