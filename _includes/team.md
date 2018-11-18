@@ -23,7 +23,7 @@
 
 |成员|K|D|A|
 |----|----|----|----|
-{%- for r in info -%}
+{% for r in info -%}
   {%- assign matches = r.items -%}
   {%- assign k = 0 -%}
   {%- assign d = 0 -%}
