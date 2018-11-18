@@ -28,7 +28,7 @@
 {% endcapture %}
 
 {% for r in team_info %}
-| {{r}} | 
+| {{r.name}} | 
 {% endfor %}
 
 # orin
