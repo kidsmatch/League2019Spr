@@ -12,7 +12,7 @@
 ## 出场信息(自动生成)
 
 {% assign info = site.data.records | where:"team","1队" | group_by:"player" %}
-{{ "|队员|上场次数|英雄|" -}}
+{{ "|队员|上场|英雄|" -}}
 {{ "|---|---|---| -}}
 {% for r in info %}
   {{r.name}}  |  {{ r.items | size }} |  {% for j in r.items %}  {{j.hero}}  {% endfor %}  {{ "|" -}}
