@@ -34,11 +34,14 @@
 
  {{r.name}}   {{ r.items | size }} | 
  
+
+ 
  {% for j in r.items %}
      {{j.hero }}
  {% endfor %}
  
- |
+  {% assign m = r.itmes | map: "hero" %}
+ | hero: {{ m }} |
  
 {% endfor %}
 
