@@ -4,5 +4,5 @@ relative_links:
   enabled: true
   collections: true
 
-
+timezone: CN
 theme: jekyll-theme-leap-day
