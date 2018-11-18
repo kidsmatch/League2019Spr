@@ -15,10 +15,9 @@
 {% assign info = site.data.records | where:"team", include.team_name | group_by:"player" %}
 |队员|上场|英雄|
 |----|----|----|
-{%- for r in info -%}
+{% for r in info -%}
 | {{r.name}}  |  {{ r.items | size }} |  {% for j in r.items %}  {{j.hero}}  {% endfor %}  {{ "|" }}
-
-{%- endfor -%}
+{% endfor -%}
 
 ## 核心数据
 
