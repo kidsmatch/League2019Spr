@@ -30,7 +30,10 @@
    {{ site.data.records | where:"team","1队" | group_by:"player" }}
 {% endcapture %}
 
-{{team_info}}
+{% for r in team_info %}
+| {{r.name}} | {{ r.items | size }} |
+{% endfor %}
+
 
 # wiwi
 {{ site.time }}
