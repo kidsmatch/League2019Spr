@@ -1,4 +1,4 @@
-{% include team.md team_name="1队" %}
+{% include team.md team_name="3队" %}
 
 # 3队"全能冠军" 
 ---
