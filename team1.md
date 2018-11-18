@@ -8,7 +8,7 @@
 本页面编辑于 {{ page.date }}
 
 {% for one in site.static_files %}
-   {{ one.name }} {{ one.modified_time -}}
+   {{ - one.name }} {{ one.modified_time -}}
 {% endfor %}
 
 - 队长：Kids.烧酒
