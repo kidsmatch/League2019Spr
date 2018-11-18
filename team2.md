@@ -1,3 +1,10 @@
+{% include team.md team_name="1队" %}
+
+
+
+
+
+
 # 2队"超有趣" 
 ---
 [回到主页](README.md)
