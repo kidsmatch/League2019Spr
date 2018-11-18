@@ -22,6 +22,9 @@
 |乃鑑    | Kids.烟雨    | 0||
 |飞虎    | Kids.王者虎    | 0 ||
 
+{{ site.data.record | where team="1队" | group_by:"player" }}
+
+
 {{ site.time }}
 
 {% for r in site.data.records %}
