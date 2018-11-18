@@ -32,9 +32,7 @@
 |---|---|---|
 {% for r in info %}
 
-{% assign j = r.items.hero %}
-
-| {{r.name}}  | {{ r.items | size }} | {{ j }} |
+ {{r.name}}   {{ r.items | size }} | {{ r.items.hero | inspect}} |
 
 {% endfor %}
 
