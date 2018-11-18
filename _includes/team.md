@@ -1,4 +1,6 @@
 
+{% assign team=site.data.team | where "team", include.team_name  %}
+{{ team }}
 # {{ include.team_name }} " {{ team.name }} "
 ---
 [回到主页](README.md)
