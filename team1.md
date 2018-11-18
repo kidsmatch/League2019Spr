@@ -30,7 +30,9 @@
 {% endcapture %}
 
 {% for r in team_info %}
-| {{r.name}} | 
+ hello
+ {{r.name}} 
+ world
 {% endfor %}
 
 # orin
