@@ -23,8 +23,8 @@
 
 ## 核心数据
 
-|成员|场次|K|D|A|队伍K|
-|----|----|----|----|----|----|
+|成员|场次|K|D|A|KA|队伍K|
+|----|----|----|----|----|----|----|
 {% for r in info -%}
   {%- assign matches = r.items -%}
   {%- assign k = 0 -%}
@@ -39,6 +39,6 @@
       {%- assign team_k = team_k | plus: match.matchK -%}
       {%- assign match_count = match_count | plus: 1 -%}
   {%- endfor -%}  
-  {%- assign tuan = k | plus: a -%}
-| {{ r.name }} | {{ match_count }} | {{ k }} | {{ d }} | {{ a }} | {{ tuan }} |
+  {%- assign ka = k | plus: a -%}
+| {{ r.name }} | {{ match_count }} | {{ k }} | {{ d }} | {{ a }} | {{ ka }} | {{ team_k }} |
 {% endfor -%}
