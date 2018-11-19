@@ -16,7 +16,7 @@
 |队员|上场|英雄|
 |----|----|----|
 {%- for r in info -%}
-| {{r.name}}  |  {{ r.items | size }} |  {%- for j in r.items -%}  {{j.hero}}  {-% endfor -%}  {{ "|" }}
+| {{r.name}}  |  {{ r.items | size }} |  {%- for j in r.items -%}  {{j.hero}}  {%- endfor -%}  {{ "|" }}
 {%- endfor -%}
 
 ## 核心数据
