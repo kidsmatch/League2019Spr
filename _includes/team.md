@@ -40,5 +40,5 @@
       {%- assign match_count = match_count | plus: 1 -%}
   {%- endfor -%}  
   {%- assign ka = k | plus: a -%}
-| {{ r.name|replace: "Kids.", "" |truncate:4,""}} | {{ match_count|round }} | {{ k }} | {{ d }} | {{ a }} | {{ ka }} | {{ team_k }} | {{ ka | times: 100 | divided_by: team_k | round: 2 }}% | 
+| {{ r.name|replace: "Kids.", "" |truncate:4,"*"}} | {{ match_count|round }} | {{ k }} | {{ d }} | {{ a }} | {{ ka }} | {{ team_k }} | {{ ka | times: 100 | divided_by: team_k | round: 2 }}% | 
 {% endfor -%}
