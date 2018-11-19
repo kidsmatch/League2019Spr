@@ -21,17 +21,19 @@
 
 ## 核心数据
 
-|成员|K|D|A|
-|----|----|----|----|
+|成员|场次|K|D|A|
+|----|----|----|----|----|
 {% for r in info -%}
   {%- assign matches = r.items -%}
   {%- assign k = 0 -%}
   {%- assign d = 0 -%}
   {%- assign a = 0 -%}
+  {%- assign match_count = 0.0 -%}
   {%- for match in matches -%}
       {%- assign k = k | plus: match.K -%}
       {%- assign d = d | plus: match.D -%}
       {%- assign a = a | plus: match.A -%}
+      {%- assign match_count = match_count | plus: 1 -%}
   {%- endfor -%}
-| {{- r.name -}} | {{- k -}} | {{- d -}} | {{- a -}}  |
+| {{ r.name }} | {{ match_count }} | {{ k }} | {{ d }} | {{ a }} | 
 {% endfor -%}
