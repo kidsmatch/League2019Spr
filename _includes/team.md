@@ -31,11 +31,14 @@
   {%- assign d = 0 -%}
   {%- assign a = 0 -%}
   {%- assign match_count = 0.0 -%}
+  {%- assign team_k = 0.0 -%}
   {%- for match in matches -%}
       {%- assign k = k | plus: match.K -%}
       {%- assign d = d | plus: match.D -%}
       {%- assign a = a | plus: match.A -%}
+      {%- assign team_k = team_k | plus: match.matchK -%}
       {%- assign match_count = match_count | plus: 1 -%}
-  {%- endfor -%}
-| {{ r.name }} | {{ match_count }} | {{ k }} | {{ d }} | {{ a }} | 
+  {%- endfor -%}  
+  {%- assign tuan = k | plus: a -%}
+| {{ r.name }} | {{ match_count }} | {{ k }} | {{ d }} | {{ a }} | {{ tuan }} |
 {% endfor -%}
