@@ -11,14 +11,14 @@
 - 队长：{{ team.leader }}
 - 人数：{{ team.count }}
 
-## 出场信息(自动生成)
+## 出场信息
 
 
 |队员|上场|英雄|
 |----|----|----|
 {% for r in info -%}
 | {{r.name}}  |  {{ r.items | size }} |  {% for j in r.items %}  {{j.hero}}  {% endfor %}  |
-{% endfor -%}
+{% endfor %}
 
 
 ## 核心数据
