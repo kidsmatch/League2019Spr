@@ -23,7 +23,7 @@
 
 ## 核心数据
 
-|成员|场次|K|D|A|KA|队伍K|
+|成员|场次|K|D|A|KA|队伍K|参团率|
 |----|----|----|----|----|----|----|
 {% for r in info -%}
   {%- assign matches = r.items -%}
@@ -31,7 +31,7 @@
   {%- assign d = 0 -%}
   {%- assign a = 0 -%}
   {%- assign match_count = 0.0 -%}
-  {%- assign team_k = 0.0 -%}
+  {%- assign team_k = 0 -%}
   {%- for match in matches -%}
       {%- assign k = k | plus: match.K -%}
       {%- assign d = d | plus: match.D -%}
@@ -40,5 +40,5 @@
       {%- assign match_count = match_count | plus: 1 -%}
   {%- endfor -%}  
   {%- assign ka = k | plus: a -%}
-| {{ r.name }} | {{ match_count }} | {{ k }} | {{ d }} | {{ a }} | {{ ka }} | {{ team_k }} |
+| {{ r.name }} | {{ match_count }} | {{ k }} | {{ d }} | {{ a }} | {{ ka }} | {{ team_k }} | {{ ka | times: 100 | divided_by: team_k | round: 2 }}% | 
 {% endfor -%}
