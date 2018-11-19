@@ -1,4 +1,5 @@
 {% assign team=site.data.team | where: "team", include.team_name | first %}
+{%- assign info = site.data.records | where:"team", include.team_name | group_by:"player" -%}
 
 # {{ include.team_name }} "{{ team.name }}"
 ---
@@ -12,7 +13,6 @@
 
 ## 出场信息(自动生成)
 
-{%- assign info = site.data.records | where:"team", include.team_name | group_by:"player" -%}
 |队员|上场|英雄|
 |----|----|----|
 {%- for r in info -%}
@@ -33,6 +33,6 @@
       {%- assign d = d | plus: match.D -%}
       {%- assign a = a | plus: match.A -%}
   {%- endfor -%}
-| {{ r.name }} | {{ k }} | {{ d }} | {{ a }}  |
+| {{- r.name -}} | {{- k -}} | {{- d -}} | {{- a -}}  |
 
 {%- endfor -%}
