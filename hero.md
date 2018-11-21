@@ -16,8 +16,8 @@
   <td> {{hero.items|size}} </td>
   <td>
      {% for item in items %}
-          {{ item.name }}({{item.items|size}}) 
-          胜{{item.items |where:"result","win"|size }}
+          {{ item.name }} {{item.items|size}}
+          胜 {{item.items |where:"result","win"|size }}
             
         
            <br>
