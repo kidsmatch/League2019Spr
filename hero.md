@@ -9,10 +9,9 @@
   </tr>
   
 {% for hero in heros -%}
-  {%- assign name = hero.name -%}
   {%- assign items = hero.items -%}
 <tr> 
-  <td> {{name}} </td>
+  <td> {{hero.name}} </td>
   <td>
      {% for item in items %}
           {{ item.player }}
