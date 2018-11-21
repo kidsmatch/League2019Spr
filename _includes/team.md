@@ -16,13 +16,17 @@
 
 |队员|微信名|上场|英雄|
 |----|----|----|----|
+<table>
 {% for r in info -%}
 {%- assign p = site.data.players | where: "player", r.name | first -%}
-| {{r.name}}  
-| {{p.wx}}
-|  {{ r.items | size }} |  {% for j in r.items %}  {{j.hero}}  {% endfor %}  |
+<tr>
+  <td>  {{r.name}}  </td>
+  <td>  {{p.wx}}    </td>
+  <td>  {{ r.items | size }}   </td>
+  <td>  {% for j in r.items %}  {{j.hero}}  {% endfor %}  </td>
+</tr>
 {% endfor %}
-
+</table>
 
 ## KDA & 参团率
 
