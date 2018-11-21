@@ -23,9 +23,17 @@
 
 ## 参团率
 
-|成员|参团率|场次|击杀|死亡|助攻|涉及人头|全队人头|
-|----|----:|----:|----:|----:|----:|----:|----:|
 <table>
+  <tr>
+    <th align="left">成员</th>
+    <th align="right">参团率</th>
+    <th align="right">场次</th>
+    <th align="right">击杀</th>
+    <th align="right">死亡</th>
+    <th align="right">助攻</th>
+    <th align="right">涉及人头</th>
+    <th align="right">全队人头</th>
+  </tr>
 {% for r in info -%}
   {%- assign matches = r.items -%}
   {%- assign k = 0 -%}
