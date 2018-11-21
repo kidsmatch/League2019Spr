@@ -17,7 +17,7 @@
   
   {% assign win = hero.items | where:"result","win"|size %}
    {% assign all = | hero.items|size %}
-  <td> {{all}}战{{win}}胜 </td>
+  <td> {{all}}战<br>{{win}}胜 </td>
    <td> {{win|times:100|divided_by:all}}% </td>
   <td>
      {% for item in items %}
