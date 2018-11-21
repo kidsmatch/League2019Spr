@@ -21,9 +21,9 @@
 {% endfor %}
 
 
-## 核心数据
+## 参团率
 
-|成员|场次|人头|死亡|助攻|涉及人头|全队人头|参团率|
+|成员|参团率|场次|击杀|死亡|助攻|涉及人头|全队人头|
 |----|----:|----:|----:|----:|----:|----:|----:|
 {% for r in info -%}
   {%- assign matches = r.items -%}
@@ -40,7 +40,16 @@
       {%- assign match_count = match_count | plus: 1 -%}
   {%- endfor -%}  
   {%- assign ka = k | plus: a -%}
-| {{ r.name|replace: "Kids.", ""|replace: "Go·", "" |truncate:4,"*"  }} | {{ match_count|round }} | {{ k }} | {{ d }} | {{ a }} | {{ ka }} | {{ team_k }} | {{ ka | times: 100 | divided_by: team_k | round: 2 }}% | 
+<tr> 
+  <td> {{ r.name|replace: "Kids.", ""|replace: "Go·", "" |truncate:4,"*"  }} </td>
+  <td> {{ ka | times: 100 | divided_by: team_k | round: 2 }}% </td>
+  <td> {{ match_count|round }} </td>
+  <td> {{ k }}  </td>
+  <td> {{ d }}  </td>
+  <td> {{ a }} </td> 
+  <td> {{ ka }} </td> 
+  <td> {{ team_k }} </td>
+</tr>
 {% endfor %}
 
 
