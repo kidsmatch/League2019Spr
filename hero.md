@@ -1,4 +1,4 @@
-{%- assign heros = site.data.records group_by:"hero" -%}
+{%- assign heros = site.data.records | group_by:"hero" -%}
 
 ## 英雄
 
