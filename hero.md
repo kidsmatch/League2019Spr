@@ -9,12 +9,12 @@
   </tr>
   
 {% for hero in heros -%}
-  {%- assign items = hero.items -%}
+  {%- assign items = hero.items | group_by:"player" -%}
 <tr> 
   <td> {{hero.name}} </td>
   <td>
      {% for item in items %}
-          {{ item.player }}
+          {{ item.name }} {{item.items|size}}
      {%- endfor -%} 
   </td>
 </tr>
