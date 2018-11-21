@@ -1,6 +1,6 @@
 {%- assign heros = site.data.records | group_by:"hero" -%}
 
-## 英雄
+## 英雄出场
 
 <table>
   <tr>
