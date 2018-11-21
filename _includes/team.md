@@ -21,13 +21,13 @@
 {% endfor %}
 
 
-## 参团率
+## KDA & 参团率
 
 <table>
   <tr>
     <th align="left">成员</th>
-    <th align="right">参团率</th>
     <th align="right">KDA</th>
+    <th align="right">参团率</th>
     <th align="right">场次</th>
     <th align="right">击杀</th>
     <th align="right">死亡</th>
@@ -52,8 +52,8 @@
   {%- assign ka = k | plus: a -%}
 <tr> 
   <td> {{ r.name|replace: "Kids.", ""|replace: "Go·", "" |truncate:4,"*"  }} </td>
+  <td> {{ ka | times: 1.0 | divided_by: d | round: 2 }} </td>
   <td> {{ ka | times: 100 | divided_by: team_k | round: 2 }}% </td>
-  <td> {{ ka | times: 1.0 | divided_by: d | round: 2 }}% </td>
   <td> {{ match_count|round }} </td>
   <td> {{ k }}  </td>
   <td> {{ d }}  </td>
@@ -66,24 +66,3 @@
 
 
 
-
-## KDA
-
-|成员|场次|击杀|助攻|两项合计|死亡|KDA|
-|----|----:|----:|----:|----:|----:|----:|----:|
-{% for r in info -%}
-  {%- assign matches = r.items -%}
-  {%- assign k = 0 -%}
-  {%- assign d = 0 -%}
-  {%- assign a = 0 -%}
-  {%- assign match_count = 0.0 -%}
-  {%- assign team_k = 0 -%}
-  {%- for match in matches -%}
-      {%- assign k = k | plus: match.K -%}
-      {%- assign d = d | plus: match.D -%}
-      {%- assign a = a | plus: match.A -%}
-      {%- assign match_count = match_count | plus: 1 -%}
-  {%- endfor -%}  
-  {%- assign ka = k | plus: a -%}
-| {{ r.name|replace: "Kids.", ""|replace: "Go·", "" |truncate:4,"*"  }} | {{ match_count|round }} | {{ k }} | {{ a }} | {{ ka }} | {{ d }} | {{ ka | times: 1.00 | divided_by: d | round: 2 }} | 
-{% endfor -%}
