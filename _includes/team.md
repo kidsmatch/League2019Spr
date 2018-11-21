@@ -41,7 +41,7 @@
   {%- endfor -%}  
   {%- assign ka = k | plus: a -%}
 | {{ r.name|replace: "Kids.", ""|replace: "Go·", "" |truncate:4,"*"  }} | {{ match_count|round }} | {{ k }} | {{ d }} | {{ a }} | {{ ka }} | {{ team_k }} | {{ ka | times: 100 | divided_by: team_k | round: 2 }}% | 
-{% endfor -%}
+{% endfor %}
 
 
 
