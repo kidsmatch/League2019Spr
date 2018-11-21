@@ -25,15 +25,15 @@
 
 <table>
   <tr>
-    <th align="left">成员</th>
-    <th align="right">KDA</th>
-    <th align="right">参团率</th>
-    <th align="right">场次</th>
-    <th align="right">击杀</th>
-    <th align="right">死亡</th>
-    <th align="right">助攻</th>
-    <th align="right">涉及人头</th>
-    <th align="right">全队人头</th>
+    <th style="text-align:center">成员</th>
+    <th style="text-align:right">KDA</th>
+    <th style="text-align:right">参团率</th>
+    <th style="text-align:right">场次</th>
+    <th style="text-align:right">击杀</th>
+    <th style="text-align:right">死亡</th>
+    <th style="text-align:right">助攻</th>
+    <th style="text-align:right">涉及人头</th>
+    <th style="text-align:right">全队人头</th>
   </tr>
 {% for r in info -%}
   {%- assign matches = r.items -%}
