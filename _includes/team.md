@@ -27,6 +27,7 @@
   <tr>
     <th align="left">成员</th>
     <th align="right">参团率</th>
+    <th align="right">KDA</th>
     <th align="right">场次</th>
     <th align="right">击杀</th>
     <th align="right">死亡</th>
@@ -52,6 +53,7 @@
 <tr> 
   <td> {{ r.name|replace: "Kids.", ""|replace: "Go·", "" |truncate:4,"*"  }} </td>
   <td> {{ ka | times: 100 | divided_by: team_k | round: 2 }}% </td>
+  <td> {{ ka | times: 1.0 | divided_by: d | round: 2 }}% </td>
   <td> {{ match_count|round }} </td>
   <td> {{ k }}  </td>
   <td> {{ d }}  </td>
