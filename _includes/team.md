@@ -15,10 +15,10 @@
 
 <table>
  <tr>
-    <th style="text-align:center">队员</th>
-    <th style="text-align:right">微信名</th>
-    <th style="text-align:right">上场</th>
-    <th style="text-align:right">英雄</th>
+    <th>队员</th>
+    <th>微信名</th>
+    <th>上场</th>
+    <th style="text-align:center">英雄</th>
   </tr>
 
 {% for r in info -%}
@@ -26,7 +26,7 @@
 <tr>
   <td>  {{r.name}}  </td>
   <td>  {{p.wx}}    </td>
-  <td>  {{ r.items | size }}   </td>
+  <td style="text-align:right">  {{ r.items | size }}   </td>
   <td>  {% for j in r.items %}  {{j.hero}}  {% endfor %}  </td>
 </tr>
 {% endfor %}
