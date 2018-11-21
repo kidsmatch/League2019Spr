@@ -14,8 +14,8 @@
 ## 出场信息
 
 
-|队员|上场|英雄|
-|----|----|----|
+|队员|微信名|上场|英雄|
+|----|----|----|----|
 {% for r in info -%}
 {%- assign p = site.data.players | where: "player", r.name | first -%}
 | {{r.name}}  
