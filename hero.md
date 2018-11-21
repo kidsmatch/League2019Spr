@@ -14,7 +14,7 @@
   <td> {{hero.name}} </td>
   <td>
      {% for item in items %}
-          {{ item.name }} {{item.items|size}}
+          {{ item.name }} {{item.items|size}} <br>
      {%- endfor -%} 
   </td>
 </tr>
