@@ -21,7 +21,7 @@
    <td> {{win|times:100|divided_by:all}}% </td>
   <td>
      {% for item in items %}
-          {{ item.name }} {{item.items|size}}
+          {{ item.name |replace:"Kids.",""|replace:"Go·",""}} {{item.items|size}}
           胜 {{item.items |where:"result","win"|size }}
             
         
