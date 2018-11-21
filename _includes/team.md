@@ -13,10 +13,14 @@
 
 ## 出场信息
 
-
-|队员|微信名|上场|英雄|
-|----|----|----|----|
 <table>
+ <tr>
+    <th style="text-align:center">队员</th>
+    <th style="text-align:right">微信名</th>
+    <th style="text-align:right">上场</th>
+    <th style="text-align:right">英雄</th>
+  </tr>
+
 {% for r in info -%}
 {%- assign p = site.data.players | where: "player", r.name | first -%}
 <tr>
