@@ -7,6 +7,7 @@
     <th style="text-align:center">英雄</th>
     <th style="text-align:right">使用者</th>
   </tr>
+  
 {% for hero in heros -%}
   {%- assign name = hero.name -%}
   {%- assign items = hero.items -%}
