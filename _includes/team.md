@@ -17,7 +17,10 @@
 |队员|上场|英雄|
 |----|----|----|
 {% for r in info -%}
-| {{r.name}}  |  {{ r.items | size }} |  {% for j in r.items %}  {{j.hero}}  {% endfor %}  |
+{%- assign p = site.data.players | where: "player", r.name | first -%}
+| {{r.name}}  
+| {{p.wx}}
+|  {{ r.items | size }} |  {% for j in r.items %}  {{j.hero}}  {% endfor %}  |
 {% endfor %}
 
 
