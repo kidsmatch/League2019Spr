@@ -52,14 +52,14 @@
   {%- assign ka = k | plus: a -%}
 <tr> 
   <td> {{ r.name|replace: "Kids.", ""|replace: "Go·", "" |truncate:4,"*"  }} </td>
-  <td> {{ ka | times: 1.0 | divided_by: d | round: 2 }} </td>
-  <td> {{ ka | times: 100 | divided_by: team_k | round: 2 }}% </td>
-  <td> {{ match_count|round }} </td>
-  <td> {{ k }}  </td>
-  <td> {{ d }}  </td>
-  <td> {{ a }} </td> 
-  <td> {{ ka }} </td> 
-  <td> {{ team_k }} </td>
+  <td style="text-align:right"> {{ ka | times: 1.0 | divided_by: d | round: 2 }} </td>
+  <td style="text-align:right"> {{ ka | times: 100 | divided_by: team_k | round: 2 }}% </td>
+  <td style="text-align:right"> {{ match_count|round }} </td>
+  <td style="text-align:right"> {{ k }}  </td>
+  <td style="text-align:right"> {{ d }}  </td>
+  <td style="text-align:right"> {{ a }} </td> 
+  <td style="text-align:right"> {{ ka }} </td> 
+  <td style="text-align:right"> {{ team_k }} </td>
 </tr>
 {% endfor %}
 </table>
