@@ -104,7 +104,7 @@
 {% endfor %}
 <tr>
   <td>  {{r.name}}  </td>
- <td style="text-align:right">  {{player_real_score*100|divided_by:player_max_score}}%    </td>
+ <td style="text-align:right">  {{player_real_score|times:100|divided_by:player_max_score}}%    </td>
   <td style="text-align:right">  {{player_match_list|size}}    </td>
   <td style="text-align:right">  {{player_real_score}}    </td>
   <td style="text-align:right">  {{player_max_score}}   </td>
