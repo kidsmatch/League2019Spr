@@ -80,6 +80,8 @@
 <table>
  <tr>
     <th>队员</th>
+  <th>贡献率</th>
+  <th>场次</th>
     <th>贡献积分</th>
     <th style="text-align:center">全胜可积</th>
     <th style="text-align:center">本队实际</th>
@@ -102,6 +104,8 @@
 {% endfor %}
 <tr>
   <td>  {{r.name}}  </td>
+ <td style="text-align:right">  {{player_real_score*100|divided_by:player_max_score}}%    </td>
+  <td style="text-align:right">  {{player_match_list|size}}    </td>
   <td style="text-align:right">  {{player_real_score}}    </td>
   <td style="text-align:right">  {{player_max_score}}   </td>
   <td style="text-align:right">  NA   </td>
