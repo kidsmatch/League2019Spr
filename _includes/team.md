@@ -1,5 +1,22 @@
 {% assign team=site.data.team | where: "team", include.team_name | first %}
 {%- assign info = site.data.records | where:"team", include.team_name | group_by:"player" -%}
+{%- assign team_match_list = site.data.records | where:"team", include.team_name | group_by:"matchId" -%}
+
+{%- assign team_real_score = 0 %}
+{%- assign team_max_score = 0 %}
+{% for team_match in team_match_list %}
+  {% assign record = team_match.items | first %}
+ {% assign score_per_match = record.matchId | divided_by: 12 | plus: 1 %}
+
+
+  {% if record.result == "win" %}
+    {% assign team_real_score = team_real_score | plus: score_per_match %}
+  {% endif %}
+    
+  {% assign team_max_score = team_max_score | plus: score_per_match %}
+
+    
+{% endfor %}
 
 # {{ include.team_name }} "{{ team.name }}"
 ---
@@ -10,6 +27,10 @@
 
 - 队长：{{ team.leader }}
 - 人数：{{ team.count }}
+- 当前积分:{{team_real_score}}
+- 丢分：{{team_max_score|minus: team_real_score}}
+
+当前积分
 
 ## 出场信息
 
