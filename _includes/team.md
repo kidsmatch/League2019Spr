@@ -80,7 +80,7 @@
 <table>
  <tr>
     <th>队员</th>
-  <th>贡献率</th>
+  <th>拿分效率</th>
   <th>场次</th>
     <th>贡献积分</th>
     <th style="text-align:center">全胜可积</th>
