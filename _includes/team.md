@@ -75,5 +75,39 @@
 {% endfor %}
 </table>
 
+## 积分贡献率
+
+<table>
+ <tr>
+    <th>队员</th>
+    <th>贡献积分</th>
+    <th style="text-align:center">全胜可积</th>
+    <th style="text-align:center">本队实际</th>
+  </tr>
+
+{% for r in info -%}
+{%- assign player_match_list = r.items %}
+{%- assign player_real_score = 0 %}
+{%- assign player_max_score = 0 %}
+{% for player_match in player_match_list %}
+  {% assign score_per_match = player_match.matchId | divided_by: 12 | plus: 1 %}
+
+  {% if player_match.result == "win" %}
+    {% assign player_real_score = player_real_score | plus: score_per_match %}
+  {% endif %}
+    
+  {% assign player_max_score = player_max_score | plus: score_per_match %}
+
+    
+{% endfor %}
+<tr>
+  <td>  {{r.name}}  </td>
+  <td style="text-align:right">  {{player_real_score}}    </td>
+  <td style="text-align:right">  {{player_max_score}}   </td>
+  <td style="text-align:right">  NA   </td>
+</tr>
+{% endfor %}
+</table>
+
 
 
