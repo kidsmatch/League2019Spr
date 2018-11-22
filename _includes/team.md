@@ -6,7 +6,7 @@
 {%- assign team_max_score = 0 %}
 {% for team_match in team_match_list %}
   {% assign record = team_match.items | first %}
- {% assign score_per_match = record.matchId | divided_by: 12 | plus: 1 %}
+ {% assign score_per_match = record.matchId |minus:1| divided_by: 12 | plus: 1 %}
 
 
   {% if record.result == "win" %}
@@ -115,7 +115,7 @@
 {%- assign player_real_score = 0 %}
 {%- assign player_max_score = 0 %}
 {% for player_match in player_match_list %}
-  {% assign score_per_match = player_match.matchId | divided_by: 12 | plus: 1 %}
+  {% assign score_per_match = player_match.matchId |minus:1| divided_by: 12 | plus: 1 %}
 
   {% if player_match.result == "win" %}
     {% assign player_real_score = player_real_score | plus: score_per_match %}
