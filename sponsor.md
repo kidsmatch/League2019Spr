@@ -18,6 +18,7 @@
 <tr>
   <td>  {{ one.sponsor }}  </td>
   <td>  {{ one.amount }}    </td>
+ <td>  {{ one.pay }}    </td>
   <td>  第{{one.round}}轮 "{{ one.slogon }}"   </td>
 </tr>
 {% endfor %}
