@@ -1,7 +1,7 @@
 赞助商
 ---
 
-{% assign list=site.data.sponsors | sort: "amount", "last" %} 
+{% assign list=site.data.sponsors | sort: "amount" %} 
 
 
 
@@ -19,7 +19,7 @@
   <td>  {{ one.sponsor }}  </td>
   <td>  {{ one.amount }}    </td>
  <td>  {{ one.pay }}    </td>
-  <td>  第{{one.round}}轮 "{{ one.slogon }}"   </td>
+  <td>  第{{one.round}}轮 "{{ one.slogan }}"   </td>
 </tr>
 {% endfor %}
 </table>
