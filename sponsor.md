@@ -22,9 +22,10 @@
  
  <td>
  {% if one.round != "0" %}
-    第{{one.round}}轮 <font color="red">"{{ one.slogan }}"   </font>
+    <b>第{{one.round}}轮</b>
+    <font color="red">"{{ one.slogan }}"   </font>
  {% else %}
-    待定
+    <font color="blue">待定</font>
  {% endif %}
  
  </td>
