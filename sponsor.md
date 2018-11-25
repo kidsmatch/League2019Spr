@@ -1,7 +1,7 @@
 赞助商
 ---
 
-{% assign list=site.data.sponsors | sort: "amount" %} 
+{% assign list=site.data.sponsors | sort: "amount" | reverse %} 
 
 
 
