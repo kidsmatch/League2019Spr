@@ -2,6 +2,17 @@
 ## [战绩截图](https://m.weibo.cn/u/6852703787) \| [规则][rule] \| [赞助商][spr]
 ---
 
+{% assgin current = 1 %}
+
+<table>
+   <tr>
+    {% assgin one = site.data.sponsors | where: "round": current | first %}
+    <td> {{ one.name }}</td>
+    <td> {{ one.sponsor }} </td>
+     <td> {{ one.slogan }} </td>
+   <tr>
+</table>
+
 |第二轮 | 冠名 ```"不喷不杠,一起Happy"``` |
 
 ## 赛程预告
