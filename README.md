@@ -8,7 +8,7 @@
 <table> 
    <tr>    
     <td> 第<b><font color="red">{{ one.round }}</font></b>轮</td>
-    <td> 赞助商:{{ one.sponsor }} </td>
+    <td> 赞助商:<br><font color="red">{{ one.sponsor }} </font></td>
       <td> 
          <b>
             <font color="red">
