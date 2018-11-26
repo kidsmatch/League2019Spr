@@ -47,3 +47,5 @@
 [r5]: round5.md
 [r6]: round6.md
 
+本页面构建于 {{ site.time }}
+
