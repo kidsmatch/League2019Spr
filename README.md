@@ -9,9 +9,9 @@ one is : {{ one }}
 
 <table> 
    <tr>    
-    <td> {{ one.name }}</td>
-    <td> {{ one.sponsor }} </td>
-    <td> {{ one.slogan }} </td>
+    <td> 第{{ one.round }}轮</td>
+    <td> 赞助商:{{ one.sponsor }} </td>
+      <td> <b><font color="red">{{ one.slogan }}</font></b> </td>
    </tr>
 </table>
 
