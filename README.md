@@ -7,7 +7,7 @@
 
 <table> 
    <tr>    
-    <td> 第{{ one.round }}轮</td>
+    <td> 第<b><font color="red">{{ one.round }}</font></b>轮</td>
     <td> 赞助商:{{ one.sponsor }} </td>
       <td> <b><font color="red">{{ one.slogan }}</font></b> </td>
    </tr>
