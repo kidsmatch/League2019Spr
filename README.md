@@ -7,13 +7,12 @@
 
 one is : {{ one }}
 
-<table>
-   
+<table> 
    <tr>    
     <td> {{ one.name }}</td>
     <td> {{ one.sponsor }} </td>
-     <td> {{ one.slogan }} </td>
-   <tr>
+    <td> {{ one.slogan }} </td>
+   </tr>
 </table>
 
 
