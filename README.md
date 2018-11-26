@@ -2,7 +2,7 @@
 ## [战绩截图](https://m.weibo.cn/u/6852703787) \| [规则][rule] \| [赞助商][spr]
 ---
 
-{% assgin current = 1 %}
+{% assign current = 3 %}
 
 <table>
    <tr>
