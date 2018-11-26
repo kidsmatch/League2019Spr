@@ -6,7 +6,7 @@
 
 <table>
    <tr>
-    {% assgin one = site.data.sponsors | where: "round": current | first %}
+    {% assgin one = site.data.sponsors | where: "round", current | first %}
     <td> {{ one.name }}</td>
     <td> {{ one.sponsor }} </td>
      <td> {{ one.slogan }} </td>
