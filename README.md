@@ -3,17 +3,19 @@
 ---
 
 {% assign current = 3 %}
+{% assign one = site.data.sponsors | where: "round", current | first %}
+
+one is : {{ one }}
 
 <table>
-   <tr>
-    {% assign one = site.data.sponsors | where: "round", current | first %}
+   
+   <tr>    
     <td> {{ one.name }}</td>
     <td> {{ one.sponsor }} </td>
      <td> {{ one.slogan }} </td>
    <tr>
 </table>
 
-|第二轮 | 冠名 ```"不喷不杠,一起Happy"``` |
 
 ## 赛程预告
 本轮已完赛
