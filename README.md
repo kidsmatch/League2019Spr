@@ -5,8 +5,6 @@
 {% assign current = 3 %}
 {% assign one = site.data.sponsors | where: "round", current | first %}
 
-one is : {{ one }}
-
 <table> 
    <tr>    
     <td> 第{{ one.round }}轮</td>
