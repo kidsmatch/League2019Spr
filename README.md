@@ -9,7 +9,13 @@
    <tr>    
     <td> 第<b><font color="red">{{ one.round }}</font></b>轮</td>
     <td> 赞助商:{{ one.sponsor }} </td>
-      <td> <b><font color="red">{{ one.slogan }}</font></b> </td>
+      <td> 
+         <b>
+            <font color="red">
+               <span style="background-color: yellow">{{ one.slogan }}</span>
+            </font>
+         </b> 
+      </td>
    </tr>
 </table>
 
