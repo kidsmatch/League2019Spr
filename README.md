@@ -1,5 +1,5 @@
 # Kids联赛2018 官方主页
-## [战绩截图](https://m.weibo.cn/u/6852703787) \| [规则][rule] \| [赞助商][spr]
+### [战绩截图](https://m.weibo.cn/u/6852703787) \| [规则][rule] \| [赞助商][spr] \| [英雄][hero]
 ---
 
 {% assign current = 4 %}
@@ -60,6 +60,7 @@
 [r4]: round4.md
 [r5]: round5.md
 [r6]: round6.md
+[hero]: hero.md
 
 本页面构建于 {{ site.time }}
 
