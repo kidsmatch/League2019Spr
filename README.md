@@ -4,7 +4,7 @@
 
 {% assign current = 5 %}
 {% assign one = site.data.sponsors | where: "round", current | first %}
-
+{% assign two = site.data.sponsors | where: "round", "score" | first %}
 <table> 
    <tr>    
     <td> 第<b><font color="red">{{ one.round }}</font></b>轮</td>
@@ -26,6 +26,21 @@
 
 
 ## 总积分榜
+
+
+<table> 
+   <tr>   
+    <td> 积分榜赞助商:<br><font color="red">{{ two.sponsor }} </font></td>
+      <td> 
+         <b>
+            <font color="red">
+               <span style="background-color: yellow">{{ two.slogan }}</span>
+            </font>
+         </b> 
+      </td>
+   </tr>
+</table>
+
 
 | 队名            | 局数 | 胜局 | 负局 |  积分 |
 |-------------   | --: | --: | --: | --: |
