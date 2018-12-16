@@ -148,40 +148,17 @@ th {
 </style> 
 
 <script>
-;(function(){
-var tbody = document.querySelector('#tableSort').tBodies[0];
-var th = document.querySelector('#tableSort').tHead.rows[0].cells;
-var td = tbody.rows;
-for(var i = 0;i < th.length;i++){
-  th[i].flag = 1;
-  th[i].onclick = function(){
-    sort('num',this.flag,this.cellIndex);
-    this.flag = -this.flag;
-  };
-};
-function sort(str,flag,n){
-  var arr = [];
-  for(var i = 0;i < td.length;i++){
-    arr.push(td[i]);
-  };
-  arr.sort(function(a,b){
-    return method(str,a.cells[n].innerHTML,b.cells[n].innerHTML) * flag;
-  });
-  for(var i = 0;i < arr.length;i++){
-    tbody.appendChild(arr[i]);
-  };
-};
-function method(str,a,b){
-  switch(str){
-  case 'num': 
-    return a-b;
-    break;
-  case 'string': 
-    return a.localeCompare(b);
-    break;
-  default:
-    return new Date(a.split('-').join('/')).getTime()-new Date(b.split('-').join('/')).getTime();
-  };
-};
-})();
+const getCellValue = (tr, idx) => tr.children[idx].innerText || tr.children[idx].textContent;
+
+const comparer = (idx, asc) => (a, b) => ((v1, v2) => 
+    v1 !== '' && v2 !== '' && !isNaN(v1) && !isNaN(v2) ? v1 - v2 : v1.toString().localeCompare(v2)
+    )(getCellValue(asc ? a : b, idx), getCellValue(asc ? b : a, idx));
+
+// do the work...
+document.querySelectorAll('th').forEach(th => th.addEventListener('click', (() => {
+    const table = th.closest('table');
+    Array.from(table.querySelectorAll('tr:nth-child(n+2)'))
+        .sort(comparer(Array.from(th.parentNode.children).indexOf(th), this.asc = !this.asc))
+        .forEach(tr => table.appendChild(tr) );
+})));
 </script>
