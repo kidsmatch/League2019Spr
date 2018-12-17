@@ -50,7 +50,7 @@
   <td>  {{r.name}}  </td>  
   <td style="text-align:right">  {{ r.items | size }}   </td>
   <td>  {{p.wx}}    </td>
-  <td>  {% for j in r.items %}  {{j.hero}}  {% endfor %}  </td>
+  <td>  {% for j in r.items | group_by: "hero" %}  {{j.hero}}  {% endfor %}  </td>
 </tr>
 {% endfor %}
 </table>
