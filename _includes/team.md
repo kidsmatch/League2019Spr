@@ -1,3 +1,5 @@
+{% include sort.html %}
+
 {% assign team=site.data.team | where: "team", include.team_name | first %}
 {%- assign info = site.data.records | where:"team", include.team_name | group_by:"player" -%}
 {%- assign team_match_list = site.data.records | where:"team", include.team_name | group_by:"matchId" -%}
@@ -138,24 +140,4 @@
 </table>
 
 
-<style type="text/css"> 
-th {
-    cursor: pointer;
-}
-</style> 
 
-<script>
-const getCellValue = (tr, idx) => tr.children[idx].innerText || tr.children[idx].textContent;
-
-const comparer = (idx, asc) => (a, b) => ((v1, v2) => 
-v1 !== '' && v2 !== '' && !isNaN(v1) && !isNaN(v2) ? v1 - v2 : (v1.toString().endsWith("%")?parseFloat(v1)-parseFloat(v2):v1.toString().localeCompare(v2))
-    )(getCellValue(asc ? a : b, idx), getCellValue(asc ? b : a, idx));
-
-// do the work...
-document.querySelectorAll('th').forEach(th => th.addEventListener('click', (() => {
-    const table = th.closest('table');
-    Array.from(table.querySelectorAll('tr:nth-child(n+2)'))
-        .sort(comparer(Array.from(th.parentNode.children).indexOf(th), this.asc = !this.asc))
-        .forEach(tr => table.appendChild(tr) );
-})));
-</script>
