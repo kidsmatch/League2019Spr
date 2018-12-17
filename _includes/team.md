@@ -51,7 +51,7 @@
   <td>  {{r.name}}  </td>  
   <td style="text-align:right">  {{ r.items | size }}   </td>
   <td>  {{p.wx}}    </td>
-  <td>  {% for j in q  %}  {{j.name}}  {% endfor %}  </td>
+  <td>  {% for j in q  %}  {{j.name}} ( {{j.items|size}} )  {% endfor %}  </td>
 </tr>
 {% endfor %}
 </table>
