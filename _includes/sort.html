@@ -20,5 +20,14 @@ document.querySelectorAll('th').forEach(th => th.addEventListener('click', (() =
         .sort(comparer(Array.from(th.parentNode.children).indexOf(th), this.asc = !this.asc))
         .forEach(tr => table.appendChild(tr) );
 })));
+        
+document.querySelectorAll('table').forEach(table => {
+    Array.from(table.querySelectorAll('tr:nth-child(n+2)'))
+        .sort(comparer(1, false))
+        .forEach(tr => table.appendChild(tr) );
+});
+        
         });
+    
+    
 </script>
