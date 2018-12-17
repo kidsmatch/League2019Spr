@@ -46,11 +46,12 @@
 
 {% for r in info -%}
 {%- assign p = site.data.players | where: "player", r.name | first -%}
+{%- assign q = r.items | group_by: "hero" -%}
 <tr>
   <td>  {{r.name}}  </td>  
   <td style="text-align:right">  {{ r.items | size }}   </td>
   <td>  {{p.wx}}    </td>
-  <td>  {% for j in r.items | group_by: "hero" %}  {{j.hero}}  {% endfor %}  </td>
+  <td>  {% for j in q  %}  {{j.name}}  {% endfor %}  </td>
 </tr>
 {% endfor %}
 </table>
