@@ -39,17 +39,17 @@
 <table>
  <tr>
     <th>队员</th>
-    <th>微信名</th>
-    <th>上场</th>
+   <th>上场</th>
+    <th>微信名</th>    
     <th style="text-align:center">英雄</th>
   </tr>
 
 {% for r in info -%}
 {%- assign p = site.data.players | where: "player", r.name | first -%}
 <tr>
-  <td>  {{r.name}}  </td>
-  <td>  {{p.wx}}    </td>
+  <td>  {{r.name}}  </td>  
   <td style="text-align:right">  {{ r.items | size }}   </td>
+  <td>  {{p.wx}}    </td>
   <td>  {% for j in r.items %}  {{j.hero}}  {% endfor %}  </td>
 </tr>
 {% endfor %}
