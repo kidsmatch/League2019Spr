@@ -1,3 +1,9 @@
+---
+title: 英雄
+---
+
+
+{% include sort.html %}
 {%- assign heros = site.data.records | group_by:"hero" -%}
 
 ## 英雄出场
