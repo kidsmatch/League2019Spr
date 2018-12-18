@@ -39,8 +39,7 @@
 <table>
  <tr>
     <th>队员</th>
-   <th>上场</th>
-    <th>微信名</th>    
+   <th>上场</th>   
     <th style="text-align:center">英雄</th>
   </tr>
 
@@ -48,9 +47,8 @@
 {%- assign p = site.data.players | where: "player", r.name | first -%}
 {%- assign q = r.items | group_by: "hero" -%}
 <tr>
-  <td>  {{r.name}}  </td>  
+  <td>  {{r.name}} <br> ( {{p.wx}} )  </td>  
   <td style="text-align:right">  {{ r.items | size }}   </td>
-  <td>  {{p.wx}}    </td>
   <td>  {% for j in q  %}  {{j.name}} ( {{j.items|size}} )  {% endfor %}  </td>
 </tr>
 {% endfor %}
