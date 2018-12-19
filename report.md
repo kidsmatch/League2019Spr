@@ -39,7 +39,7 @@ title: "队员报告"
   {%- assign a = 0 -%}
   {%- assign match_count = 0.0 -%}
   {%- assign team_k = 0 -%}
-  {%- for match in matches -%}
+
   
   {%- assign player_real_score = 0 %}
 {%- assign player_max_score = 0 %}
@@ -70,6 +70,7 @@ title: "队员报告"
   {% assign player_max_score = player_max_score | plus: score_per_match %}
   
   {% endfor %}
+  
  {%- assign ka = k | plus: a -%}
  {% assign kds = ka | times: 1.0 | divided_by: d | round: 2 %}
  {% assign canTuan = ka | times: 100 | divided_by: team_k | round: 2 %}
