@@ -25,7 +25,7 @@
     <b>第{{one.round}}轮</b>
     <font color="red">"{{ one.slogan }}"   </font>
  {% else %}
-    <font color="blue">感谢Kids大家庭！</font>
+    <font color="blue">感谢Kids战队所有人的支持！</font>
  {% endif %}
  
  </td>
