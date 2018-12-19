@@ -12,9 +12,7 @@
   <th>平均分</th>
     <th>胜</th>
     <th>负</th>
-    <th>总mvp</th> 
-    <th>胜方mvp</th> 
-    <th>负方mvp</th> 
+    <th>mvp</th>
   <th>输出</th> 
   <th>承伤</th> 
  </tr>
@@ -40,13 +38,11 @@
  
  
   <tr>
-    <td>  {{player_and_matchs.name}} <br> ({{player.wx}})  </td>  
+    <td>  ({{player.wx}})  </td>  
  <td style="text-align:right">  {{s_score | divided_by: size| round:2}} </td>
     <td style="text-align:right">  {{ s_win }}   </td>
     <td style="text-align:right">  {{ s_lose }}   </td>
- <td style="text-align:right">  {{s_mvp}} </td>
-    <td style="text-align:right">  {{s_mvp_win}} </td>
-    <td style="text-align:right">  {{s_mvp_lose}} </td>
+ <td style="text-align:right">  {{s_mvp}} ({{s_mvp_win}}胜{{s_mvp_lose}}负) </td>
  <td style="text-align:right">  {{s_attack | divided_by: size | round:2}}% </td>
  <td style="text-align:right">  {{s_pain | divided_by: size | round:2}}% </td>
   </tr>
