@@ -5,8 +5,11 @@
 # {{ include.posDes }} 数据排行榜
 ---  
 本页面构建于 {{ site.time }}
+
 [回到主页](index.html)
 
+
+点击列名可按此列排序
 <table>
  <tr>
     <th>队员</th>
