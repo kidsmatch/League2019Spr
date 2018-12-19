@@ -48,6 +48,12 @@ title: "队员报告"
     {%- assign team_k = team_k | plus: match.matchK -%}
     {%- assign match_count = match_count | plus: 1 -%}
     {% assign score_per_match = match.matchId |minus:1| divided_by: 12 | plus: 1 %}
+      {% if match.score < min_score %}{% assign min_score = match.score %}{% endif %}
+    {% if match.attack < min_attack %}{% assign min_attack = match.attack %}{% endif %}
+    {% if match.pain < min_pain %}{% assign min_pain = match.pain %}{% endif %}
+    {% if match.score > max_score %}{% assign max_score = match.score %}{% endif %}
+    {% if match.attack > max_attack %}{% assign max_attack = match.attack %}{% endif %}
+    {% if match.pain > max_pain %}{% assign max_pain = match.pain %}{% endif %}
     {% if match.result == "win" %}
       {% assign player_real_score = player_real_score | plus: score_per_match %}
     {% endif %}
@@ -58,7 +64,7 @@ title: "队员报告"
     <td>  
 {{player.player}}({{player.wx}}), 来自{{player.team}}
 <br>
-<br>在本届比赛共出场{{size}}次,赢了{{ s_win }}场输了{{ s_lose }}场。
+<br>共出场{{size}}次，赢了{{ s_win }}场，输了{{ s_lose }}场。
 <br>为团队获得{{team_real_score}}分中的{{player_real_score}}分，贡献率{{gongXian}}%,
 <br>如果自己上的场次全胜，自己可以拿{{player_max_score}}分，拿分效率{{xiaoLv}}%.
 <br>
