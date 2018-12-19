@@ -7,15 +7,13 @@
 [回到主页](index.html)  本页面构建于 {{ site.time }}
 
 
-## 出场信息
-
 <table>
  <tr>
     <th>队员</th>
     <th>胜</th>
     <th>负</th>
     <th>mvp<th> 
-  </tr>
+ </tr>
 
 {% for player_and_matchs in players %}
   {% assign player = site.data.players | where: "player", player_and_matchs.name | first -%}
