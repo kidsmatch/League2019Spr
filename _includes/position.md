@@ -13,7 +13,8 @@
     <th>队员</th>
     <th>胜</th>
     <th>负</th>
-    <th>mvp</th> 
+    <th>胜方mvp</th> 
+    <th>负方mvp</th> 
  </tr>
 {%- for player_and_matchs in players -%}
   {% assign player = site.data.players | where: "player", player_and_matchs.name | first %}
@@ -27,7 +28,8 @@
     <td>  {{player_and_matchs.name}} <br> ({{player.wx}})  </td>  
     <td style="text-align:right">  {{ s_win }}   </td>
     <td style="text-align:right">  {{ s_lose }}   </td>
-    <td style="text-align:right">  {{ s_mvp }} 胜{{s_mvp_win}} 负{{s_mvp_win}} </td>
+    <td style="text-align:right">  {{s_mvp_win}} </td>
+   <td style="text-align:right">  {{s_mvp_lose}} </td>
   </tr>
 {%- endfor -%}
 </table>
