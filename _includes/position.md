@@ -6,8 +6,6 @@
 ---
 [回到主页](index.html)  本页面构建于 {{ site.time }}
 
-123
-
 <table>
  <tr>
     <th>队员</th>
@@ -16,6 +14,8 @@
     <th>负</th>
     <th>胜方mvp</th> 
     <th>负方mvp</th> 
+  <th>输出</th> 
+  <th>承伤</th> 
  </tr>
 {%- for player_and_matchs in players -%}
   {% assign player = site.data.players | where: "player", player_and_matchs.name | first %}
@@ -45,14 +45,11 @@
     <td style="text-align:right">  {{ s_lose }}   </td>
     <td style="text-align:right">  {{s_mvp_win}} </td>
     <td style="text-align:right">  {{s_mvp_lose}} </td>
+ <td style="text-align:right">  {{s_attack | divided_by: size}} </td>
+ <td style="text-align:right">  {{s_pain | divided_by: size}} </td>
   </tr>
 {%- endfor -%}
 </table>
-
-456
-
-
-
 
 
 
