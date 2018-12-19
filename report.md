@@ -7,6 +7,7 @@ title: "队员报告"
 # KidsLeague2018 队员分析报告
 ### [回到主页](index.html)
 
+
 <table>
  <tr>
     <th>队员</th>
@@ -14,7 +15,10 @@ title: "队员报告"
  </tr>
  
 {%- for player_and_matchs in players -%}
+
   {% assign player = site.data.players | where: "player", player_and_matchs.name | first %}
+
+  {% comment %}
   {% assign matchs = player_and_matchs.items %}
   {% assign s_mvp = matchs | where: "mvp", "yes" | size %}
   {% assign s_win = matchs | where: "result", "win" | size %}
@@ -38,7 +42,7 @@ title: "队员报告"
   {% assign team_k = 0 -%}  
   {% assign player_real_score = 0 %}
   {% assign player_max_score = 0 %}
-  {% for match in matchs %}
+  {% for match in matchs %}  
     {% assign s_score = s_score | plus: match.score  %}
     {% assign s_attack = s_attack | plus: match.attack %}
     {% assign s_pain = s_pain | plus: match.pain %}
@@ -62,6 +66,8 @@ title: "队员报告"
   {% assign ka = k | plus: a %}
   {% assign kds = ka | times: 1.0 | divided_by: d | round: 2 %}
   {% assign canTuan = ka | times: 100 | divided_by: team_k | round: 2 %}
+  {% endcomment %}
+  
   <tr>
     <td>  {{player.wx}}  <br>  ({{player.team}}) </td>  
     <td>  haha </td>
