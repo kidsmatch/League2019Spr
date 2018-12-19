@@ -48,12 +48,9 @@ title: "队员报告"
     {%- assign team_k = team_k | plus: match.matchK -%}
     {%- assign match_count = match_count | plus: 1 -%}
     {% assign score_per_match = match.matchId |minus:1| divided_by: 12 | plus: 1 %}
-      {% if match.score < min_score %}{% assign min_score = match.score %}{% endif %}
-    {% if match.attack < min_attack %}{% assign min_attack = match.attack %}{% endif %}
-    {% if match.pain < min_pain %}{% assign min_pain = match.pain %}{% endif %}
-    {% if match.score > max_score %}{% assign max_score = match.score %}{% endif %}
-    {% if match.attack > max_attack %}{% assign max_attack = match.attack %}{% endif %}
-    {% if match.pain > max_pain %}{% assign max_pain = match.pain %}{% endif %}
+    {% if match.score < min_score %}
+      {% assign min_score = match.score %}
+    {% endif %}
     {% if match.result == "win" %}
       {% assign player_real_score = player_real_score | plus: score_per_match %}
     {% endif %}
