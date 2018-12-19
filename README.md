@@ -2,28 +2,19 @@
 ### [战绩截图](https://m.weibo.cn/u/6852703787) \| [规则][rule] \| [赞助商][spr] \| [英雄][hero]
 ---
 
-{% assign current = 5 %}
-{% assign one = site.data.sponsors | where: "round", current | first %}
-{% assign two = site.data.sponsors | where: "round", "score" | first %}
 <table> 
    <tr>    
-    <td> 第<b><font color="red">{{ one.round }}</font></b>轮</td>
-    <td> 赞助商:<br><font color="red">{{ one.sponsor }} </font></td>
+    <td> 感恩答谢轮</td>
+    <td> 赞助商:  </font></td>
       <td> 
          <b>
             <font color="red">
-               <span style="background-color: yellow">{{ one.slogan }}</span>
+               <span style="background-color: yellow"> 1</span>
             </font>
          </b> 
       </td>
    </tr>
 </table>
-
-
-## 赛程预告
-本轮已完赛
-本届比赛正赛已完赛
-
 
 ## 总积分榜
 
@@ -52,7 +43,7 @@
 
 按各队 [1队荡秋千][t1] \| [2队超有趣][t2] \| [3队全能冠军][t3]
 
-按位置 [中路][pos1] \| [上路][pos2] \| [打野][pos3] \| [辅助][pos4] \| [边路射手][pos5] 
+按位置 [中路][p1] \| [上路][p2] \| [打野][p3] \| [辅助][p4] \| [边路射手][p5] 
 (注：非射手职业如果打下路， 视为上路)
 
 [rule]: rule.md
