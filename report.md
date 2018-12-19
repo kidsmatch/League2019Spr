@@ -38,6 +38,14 @@ title: "队员报告"
   {% assign team_k = 0 -%}  
   {% assign player_real_score = 0 %}
   {% assign player_max_score = 0 %}
+    {% for match in matchs %}  
+    {% assign s_score = s_score | plus: match.score  %}
+    {% assign s_attack = s_attack | plus: match.attack %}
+    {% assign s_pain = s_pain | plus: match.pain %}
+    {% assign k = k | plus: match.K %}
+    {% assign d = d | plus: match.D %}
+    {% assign a = a | plus: match.A %}
+  {% endfor %}
   <tr>
     <td>  {{player.wx}}  <br>  ({{player.team}}) </td>  
     <td>  
