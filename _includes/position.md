@@ -12,6 +12,7 @@
   <th>平均分</th>
     <th>胜</th>
     <th>负</th>
+    <th>总mvp</th> 
     <th>胜方mvp</th> 
     <th>负方mvp</th> 
   <th>输出</th> 
@@ -43,10 +44,11 @@
  <td style="text-align:right">  {{s_score | divided_by: size| round:2}} </td>
     <td style="text-align:right">  {{ s_win }}   </td>
     <td style="text-align:right">  {{ s_lose }}   </td>
+ <td style="text-align:right">  {{s_mvp}} </td>
     <td style="text-align:right">  {{s_mvp_win}} </td>
     <td style="text-align:right">  {{s_mvp_lose}} </td>
- <td style="text-align:right">  {{s_attack}} - {{s_attack | divided_by: size | round:2}}% </td>
- <td style="text-align:right">  {{s_pain}} - {{s_pain | divided_by: size | round:2}}% </td>
+ <td style="text-align:right">  {{s_attack | divided_by: size | round:2}}% </td>
+ <td style="text-align:right">  {{s_pain | divided_by: size | round:2}}% </td>
   </tr>
 {%- endfor -%}
 </table>
