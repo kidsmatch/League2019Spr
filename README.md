@@ -16,7 +16,7 @@
    </tr>
 </table>
 
-## 数据榜 <span style="background-color: yellow"> Hot! </span>
+<h2> 数据榜 <span style="background-color: yellow"> Hot! </span> </h2>
 
 #### 按各队 [1队荡秋千][t1] \| [2队超有趣][t2] \| [3队全能冠军][t3]
 
@@ -27,19 +27,9 @@
 
 ## 总积分榜
 
-
-<table> 
-   <tr>   
-    <td> 积分榜赞助商:<br><font color="red">{{ two.sponsor }} </font></td>
-      <td> 
-         <b>
-            <font color="red">
-               <span style="background-color: yellow">{{ two.slogan }}</span>
-            </font>
-         </b> 
-      </td>
-   </tr>
-</table>
+积分榜赞助商:<br><font color="red"> Go·Nunu </font></td>
+  <span style="background-color: yellow"> 不忘初心 </span>
+            
 
 
 | 队名            |胜局 | 负局 |  积分 |排名
