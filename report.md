@@ -48,9 +48,6 @@ title: "队员报告"
     {%- assign team_k = team_k | plus: match.matchK -%}
     {%- assign match_count = match_count | plus: 1 -%}
     {% assign score_per_match = match.matchId |minus:1| divided_by: 12 | plus: 1 %}
-    {% if match.score < min_score %}
-      {% assign min_score = match.score %}
-    {% endif %}
     {% if match.result == "win" %}
       {% assign player_real_score = player_real_score | plus: score_per_match %}
     {% endif %}
