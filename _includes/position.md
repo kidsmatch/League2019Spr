@@ -29,7 +29,7 @@
  
   {% assign s_score = 0 %}
     {% assign s_attack = 0 %}
-      {% assign s_attack = 0 %}
+      {% assign s_pain = 0 %}
       {% assign size = matchs | size %}
   {% for match in matchs %}
     {% assign s_score = s_score | plus: match.score | round:2 %}
