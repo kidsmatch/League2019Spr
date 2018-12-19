@@ -16,7 +16,7 @@
    </tr>
 </table>
 
-## 数据榜
+## 数据榜 <span style="background-color: yellow"> Hot! </span>
 
 #### 按各队 [1队荡秋千][t1] \| [2队超有趣][t2] \| [3队全能冠军][t3]
 
