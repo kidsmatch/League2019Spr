@@ -54,6 +54,14 @@ title: "队员报告"
     {% endif %}
     {% assign player_max_score = player_max_score | plus: score_per_match %}
   {% endfor %}
+   {% assign ka = k | plus: a %}
+  {% assign kda = ka | times: 1.0 | divided_by: d | round: 2 %}
+  {% assign canTuan = ka | times: 100 | divided_by: team_k | round: 2 %}
+  {% assign avg_score = s_score | divided_by: size| round:1 %}
+  {% assign avg_attack = s_attack | divided_by: size | round:1 %}
+  {% assign avg_pain = s_pain | divided_by: size | round:1 %}
+  {% assign gongXian = player_real_score|times:100|divided_by:team_real_score %}
+  {% assign xiaoLv = player_real_score|times:100|divided_by:player_max_score %}
   <tr>
     <td>  {{player.wx}}  <br>  ({{player.team}}) </td>  
     <td>  
@@ -66,9 +74,7 @@ title: "队员报告"
 <br>共得到{{s_mvp}}次MVP, 其中{{s_mvp_win}}次胜方MVP,{{s_mvp_lose}}次败方MVP。
 <br>共击杀{{k}}次，助攻{{a}}次，合计{{ka}}次。死亡{{d}}次。 KDA值为{{kda}}。参团率为{{canTuan}}%。
 <br>
-<br>平均评分{{avg_score}},其中最高评分{{max_score}},最低评分{{min_score}}。
-<br>平均输出{{avg_attack}},最高值{{max_attack}},最低值{{min_attack}}。
-<br>平均承伤{{avg_pain}},最高值{{max_pain}},最低值{{min_pain}}。 
+<br>平均评分{{avg_score}}，平均输出{{avg_attack}}，<br>平均承伤{{avg_pain}}
     </td>
   </tr>
   {% endfor %}
