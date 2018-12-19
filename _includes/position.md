@@ -26,7 +26,7 @@
   {% assign s_lose = matchs | where: "result", "lose" | size %}
   
   <tr>
-    <td>  {{player.player}} <br> ( {{player.wx}} )  </td>  
+    <td>  {{player.player}} <br> ({{player.wx}})  </td>  
     <td style="text-align:right">  {{ s_win }}   </td>
     <td style="text-align:right">  {{ s_lose }}   </td>
     <td style="text-align:right">  {{ s_mvp }}   </td>
