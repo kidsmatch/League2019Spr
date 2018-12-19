@@ -32,6 +32,7 @@
 | 1队[荡秋千][t1]  | 14  | 6 | 27 |<font color="red"> <span style="background-color: yellow">冠军</span>  </font>|
 | 2队[超有趣][t2]  |9  | 11 | 14 |亚军|
 | 3队[全能冠军][t3]| 7 | 13 | 13 |季军|
+
 积分榜赞助商:<font color="red"> Go·Nunu </font>
   <span style="background-color: yellow"> 不忘初心 </span>
             
