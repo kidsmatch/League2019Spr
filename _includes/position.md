@@ -32,9 +32,9 @@
       {% assign s_attack = 0 %}
       {% assign size = matchs | size %}
   {% for match in matchs %}
-    {% assign s_score = s_score | plus: match.score %}
-    {% assign s_attack = s_attack | plus: match.attack %}
-    {% assign s_pain = s_pain | plus: match.pain %}
+    {% assign s_score = s_score | plus: match.score | round:2 %}
+    {% assign s_attack = s_attack | plus: match.attack | round:2 %}
+    {% assign s_pain = s_pain | plus: match.pain | round:2 %}
   {% endfor %}
  
  
@@ -45,8 +45,8 @@
     <td style="text-align:right">  {{ s_lose }}   </td>
     <td style="text-align:right">  {{s_mvp_win}} </td>
     <td style="text-align:right">  {{s_mvp_lose}} </td>
- <td style="text-align:right">  {{s_attack | divided_by: size}} </td>
- <td style="text-align:right">  {{s_pain | divided_by: size}} </td>
+ <td style="text-align:right">  {{s_attack | divided_by: size}}% </td>
+ <td style="text-align:right">  {{s_pain | divided_by: size}}% </td>
   </tr>
 {%- endfor -%}
 </table>
