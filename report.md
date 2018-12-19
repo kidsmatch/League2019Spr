@@ -40,7 +40,7 @@ title: "队员报告"
 平均评分{{s_score | divided_by: size| round:1}},其中最高评分{{max_score}},最低评分{{min_score}}。
 平均输出{{s_attack | divided_by: size | round:1}},最高值{{max_attack}},最低值{{min_attack}}。
 平均承伤{{s_pain | divided_by: size | round:1}},最高值{{max_pain}},最低值{{min_pain}}。
-
+ </td>
   </tr>
 {%- endfor -%}
 </table>
