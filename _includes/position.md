@@ -38,7 +38,7 @@
  
  
   <tr>
-    <td>  {{player.wx}}  </br>  ({{player.team}}) </td>  
+    <td>  {{player.wx}}  <br>  ({{player.team}}) </td>  
  <td style="text-align:right">  {{s_score | divided_by: size| round:1}} </td>
     <td style="text-align:right">  {{ s_win }}   </td>
     <td style="text-align:right">  {{ s_lose }}   </td>
