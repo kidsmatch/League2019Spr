@@ -42,7 +42,7 @@
  <td style="text-align:right">  {{s_score | divided_by: size| round:1}} </td>
     <td style="text-align:right">  {{ s_win }}   </td>
     <td style="text-align:right">  {{ s_lose }}   </td>
- <td style="text-align:right">  {{s_mvp}} <br> ({{s_mvp_win}}胜) </td>
+ <td style="text-align:right">  {{s_mvp}} <br> {{s_mvp_win}}胜 </td>
  <td style="text-align:right">  {{s_attack | divided_by: size | round:1}} </td>
  <td style="text-align:right">  {{s_pain | divided_by: size | round:1}} </td>
   </tr>
