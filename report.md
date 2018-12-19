@@ -15,7 +15,7 @@ title: "队员报告"
   </tr>
   {% for player_and_matchs in players %}
   {% assign player = site.data.players | where: "player", player_and_matchs.name | first %}
-    {% assign matchs = player_and_matchs.items %}
+  {% assign matchs = player_and_matchs.items %}
   {% assign s_mvp = matchs | where: "mvp", "yes" | size %}
   {% assign s_win = matchs | where: "result", "win" | size %}
   {% assign s_lose = matchs | where: "result", "lose" | size %}
@@ -26,16 +26,16 @@ title: "队员报告"
   {% assign min_attack = 100 %}
   {% assign min_pain = 100 %}
   {% assign max_score = 0 %}
-  {% assign  max_attack = 0 %}
-  {% assign  max_pain = 0 %}
+  {% assign max_attack = 0 %}
+  {% assign max_pain = 0 %}
   {% assign s_attack = 0 %}
   {% assign s_pain = 0 %}
   {% assign size = matchs | size %}
-  {% assign k = 0 -%}
-  {% assign d = 0 -%}
-  {% assign a = 0 -%}
+  {% assign k = 0 %}
+  {% assign d = 0 %}
+  {% assign a = 0 %}
   {% assign match_count = 0.0 %}
-  {% assign team_k = 0 -%}  
+  {% assign team_k = 0 %}  
   {% assign player_real_score = 0 %}
   {% assign player_max_score = 0 %}
   {% for match in matchs %}  
