@@ -1,8 +1,6 @@
 ---
-title: 3
+title: "中单"
 ---
-
-# niha
 
 {% include position.md pos="中" %}
 
