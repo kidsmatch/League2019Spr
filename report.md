@@ -38,7 +38,6 @@ title: "队员报告"
   {% assign team_k = 0 -%}  
   {% assign player_real_score = 0 %}
   {% assign player_max_score = 0 %}
-
   {% for match in matchs %}
     {% assign s_score = s_score | plus: match.score  %}
     {% assign s_attack = s_attack | plus: match.attack %}
@@ -63,12 +62,9 @@ title: "队员报告"
   {% assign ka = k | plus: a %}
   {% assign kds = ka | times: 1.0 | divided_by: d | round: 2 %}
   {% assign canTuan = ka | times: 100 | divided_by: team_k | round: 2 %}
-
   <tr>
     <td>  {{player.wx}}  <br>  ({{player.team}}) </td>  
-    <td>  
-haha
- </td>
+    <td>  haha </td>
   </tr>
 {% endfor %}
 </table>
