@@ -3,11 +3,11 @@
 # {{ include.posDes }} 数据排行榜
 ### [回到主页](index.html)
 
-**点击列名可按此列排序**
+**点击任意列名 均可进行排序**
 <table>
  <tr>
     <th>队员</th>
-  <th>平均分</th>
+  <th>评分</th>
     <th>胜</th>
     <th>负</th>
     <th>mvp</th>
