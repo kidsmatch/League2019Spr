@@ -27,7 +27,7 @@
 
 ## 总积分榜
 
-积分榜赞助商:<br><font color="red"> Go·Nunu </font>
+积分榜赞助商:<font color="red"> Go·Nunu </font>
   <span style="background-color: yellow"> 不忘初心 </span>
             
 
