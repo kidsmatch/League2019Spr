@@ -2,4 +2,4 @@
 title:中单
 ---
 
-{% include team.md pos="中" %}
+{% include position.md pos="中" %}
