@@ -4,5 +4,5 @@ title: 3
 
 # niha
 
-{% include position.md pos="3" %}
+{% include position.md pos="中" %}
 
