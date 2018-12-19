@@ -39,6 +39,19 @@ title: "队员报告"
   {% assign player_real_score = 0 %}
   {% assign player_max_score = 0 %}
   {% for match in matchs %}  
+    {% assign s_score = s_score | plus: match.score  %}
+    {% assign s_attack = s_attack | plus: match.attack %}
+    {% assign s_pain = s_pain | plus: match.pain %}
+    {% assign k = k | plus: match.K %}
+    {% assign d = d | plus: match.D %}
+    {% assign a = a | plus: match.A %}
+    {% assign team_k = team_k | plus: match.matchK %}
+    {% assign match_count = match_count | plus: 1 %}
+    {% assign score_per_match = match.matchId |minus:1| divided_by: 12 | plus: 1 %}
+    {% if match.result == "win" %}
+      {% assign player_real_score = player_real_score | plus: score_per_match %}
+    {% endif %}
+    {% assign player_max_score = player_max_score | plus: score_per_match %}
   {% endfor %}
   <tr>
     <td>  {{player.wx}}  <br>  ({{player.team}}) </td>  
