@@ -32,21 +32,21 @@
       {% assign s_pain = 0 %}
       {% assign size = matchs | size %}
   {% for match in matchs %}
-    {% assign s_score = s_score | plus: match.score | round:2 %}
-    {% assign s_attack = s_attack | plus: match.attack | round:2 %}
-    {% assign s_pain = s_pain | plus: match.pain | round:2 %}
+    {% assign s_score = s_score | plus: match.score  %}
+    {% assign s_attack = s_attack | plus: match.attack %}
+    {% assign s_pain = s_pain | plus: match.pain %}
   {% endfor %}
  
  
   <tr>
     <td>  {{player_and_matchs.name}} <br> ({{player.wx}})  </td>  
- <td style="text-align:right">  {{s_score | divided_by: size}} </td>
+ <td style="text-align:right">  {{s_score | divided_by: size| round:2}} </td>
     <td style="text-align:right">  {{ s_win }}   </td>
     <td style="text-align:right">  {{ s_lose }}   </td>
     <td style="text-align:right">  {{s_mvp_win}} </td>
     <td style="text-align:right">  {{s_mvp_lose}} </td>
- <td style="text-align:right">  {{s_attack | divided_by: size}}% </td>
- <td style="text-align:right">  {{s_pain | divided_by: size}}% </td>
+ <td style="text-align:right">  {{s_attack}} - {{s_attack | divided_by: size | round:2}}% </td>
+ <td style="text-align:right">  {{s_pain}} - {{s_pain | divided_by: size | round:2}}% </td>
   </tr>
 {%- endfor -%}
 </table>
