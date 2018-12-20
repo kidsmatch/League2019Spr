@@ -56,6 +56,7 @@ title: "队员报告"
     {% endif %}
     {% assign player_max_score = player_max_score | plus: score_per_match %}
   {% endfor %}
+  {% assign avg_score = s_score | divided_by: size| round:1 %}
   <tr>
     <td>  {{player.wx}}  <br>  ({{player.team}}) </td>  
     <td>  
