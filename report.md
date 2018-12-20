@@ -40,7 +40,7 @@ title: "队员报告"
   {% assign player_real_score = 0 %}
   {% assign player_max_score = 0 %}
   {% for match in matchs %}  
-    {% assgin min_score = match.score | at_most : min_score %}
+    {% assign min_score = match.score | at_most : min_score %}
     {% assign s_score = s_score | plus: match.score  %}
     {% assign s_attack = s_attack | plus: match.attack %}
     {% assign s_pain = s_pain | plus: match.pain %}
