@@ -2,6 +2,7 @@
 title: "队员报告"
 ---
 
+本页面构建于 {{ site.time }}
 {% assign players = site.data.records | group_by:"player" %}
 
 # KidsLeague2018 队员分析报告
@@ -75,4 +76,3 @@ title: "队员报告"
 </table>
 
 
-本页面构建于 {{ site.time }}
