@@ -1,16 +1,13 @@
-# Kids战队
+# Kids比赛预告
 ---
 
-<table> 
-   <tr>    
-    <td> 颁奖嘉年华</td>
-    <td> 赞助商:Kids.剑来(先荣)</td>
-      <td> 
-         <b>
-            <font color="red">
-               <span style="background-color: yellow"> Nirvana祝你早日上王者</span>
-            </font>
-         </b> 
-      </td>
-   </tr>
-</table>
+## 赛程预告
+
+|计划日期|时间|比赛双方|
+|--------|------|----|
+| <font color="red">12月25日(圣诞)</font>| <font color="red"> 22:00</font>| Kids战队 <br> Go战队 |	
+
+## 比赛规则
+
+三局两胜
+
