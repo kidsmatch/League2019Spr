@@ -5,7 +5,7 @@
 
 |计划日期|时间|比赛双方|
 |--------|------|----|
-| <font color="red">12月25日(圣诞)</font>| <font color="red"> 22:00</font>| Kids战队 <br> Go战队 |	
+| <font color="red">12月25日(圣诞)</font>| <font color="red"> 22:00</font>| Kids战队 VS Go战队 |	
 
 ## 比赛规则
 
