@@ -5,7 +5,7 @@ Kids战队 Vs Go战队
 
 |编号|日期|时间|
 |----|--------|----|
-|第3局 <font color="red">(决胜局)</font>|12月26日|<font color="red">22:00</font>|	
+|第3局 <font color="red">(决胜局)</font>|12月26日|<font color="red">22:30</font>|	
 
 ### 直播
 - [虎牙直播](https://github.com/kidsmatch/KidsLeague2018/edit/master/README.md)
@@ -18,7 +18,7 @@ Kids战队 Vs Go战队
 |编号|日期|时间|赛果|
 |----|----|----|----|
 |第1局|12月25日|22:00|Go胜|
-|第2局|12月25日|23:00|Kids胜|
+|第2局|12月25日|22:30|Kids胜|
 
 ## 比赛规则
 
