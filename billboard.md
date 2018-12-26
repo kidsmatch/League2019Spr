@@ -8,7 +8,7 @@ Kids战队 Vs Go战队
 |第3局 <font color="red">(决胜局)</font>|12月26日|<font color="red">22:22</font>|	
 
 ### 直播
-- [虎牙直播](https://github.com/kidsmatch/KidsLeague2018/edit/master/README.md)
+- [虎牙直播](https://www.huya.com/16987807)
 - 直播人员
   - Kids.小天 【主持人】
   - Go.琴剑 【技术嘉宾】
