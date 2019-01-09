@@ -6,8 +6,8 @@ Kids战队 Vs Go战队
 
 |编号|日期|时间|先手方|
 |----|--------|----|----|
-|第1局 |1月9日|<font color="red">22:00</font>|Kids|	
-|第2局 |1月9日|<font color="red">22:30</font>|Go|
+|第1局 |<font color="red">1月9日</font>|<font color="red">22:00</font>|Kids|	
+|第2局 |<font color="red">1月9日</font>|<font color="red">22:30</font>|Go|
 |第3局(若有) |1月10日|<font color="red">22:00</font>|待定|
 
 ### 直播
@@ -20,8 +20,10 @@ Kids战队 Vs Go战队
 
 |编号|日期|时间|赛果|
 |----|----|----|----|
+{% comment %}
 |第1局|1月9日|22:00|尚未开赛|
 |第2局|1月9日|22:30|尚未开赛|
+{% endcomment %}
 
 ## 比赛规则
 
