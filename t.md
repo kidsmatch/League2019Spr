@@ -10,12 +10,12 @@
 |T2|**王者10星+**||||
 ||Kids.遗忘柚子|Kids.弦|J棒棒糖|Kids.超|
 ||Kids.吴老吉|Kids.?<br>(卫峰)|Kids.元歌|Go.琴剑<br>(徐俊)|
-||Kids.MadCat||||
+||Kids.<br>MadCat||||
 |T3|**边缘王者**|||
 ||Kids.1次就好<br>(Marin)|Kids.星河|Kids.剑来|Kids.狂奔|
 ||Kids.?<br>(潘成成）|Kids.王者虎<br>(飞虎)|Kids.斑爷<br>(源缘圆)|Kids.财神<br>(老高)|
 ||Kids.小红帽|Go.飞廉<br>(陈诉)|Go.皮蛋<br>(金凌子)|Kids.小天|
-||Kids.weiwei|Kids.?<br> (一只羊)|||
+||Kids.<br>weiwei|Kids.?<br> (一只羊)|||
 |T4|**钻石星耀**||||
 ||Kids.?<br>(张建军)|Kids.Linda|Kids.Kimi|Kids.天亮|
 |T5|**黄金一代**||||
