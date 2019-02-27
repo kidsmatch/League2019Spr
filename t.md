@@ -1,25 +1,27 @@
 # 分档公示
 
 
-|分档|人员1|人员2|人员3|人员4|人员5|
-|----|----|----|----|----|----|
+|分档|人员1|人员2|人员3|人员4|
+|----|----|----|----|----|
 |国服级||||||
 |T0|Kids.糖糖(抹茶)| Go·老杨(周杨）||||
-|带飞级||||||
-|T1|Kids.刀刀|Kids.战神|Kids.hu(韩国字)|Go·粽子(曾伟林?)||
-|王者10星+||||||
-|T2|Kids.遗忘柚子|Kids.弦|J棒棒糖|Kids.超|Kids.MadCat|
-|T2|Kids.吴老吉|Kids.?(卫峰)|Kids.元歌|Go.琴剑(徐俊)||
-|边缘王者||||||
-|T3|Kids.一次就好(Marin)|Kids.星河|Kids.剑来|Kids.狂奔|Kids.weiwei|
-|T3|Kids.?(潘成成）|Kids.十六(飞虎)|Kids.(源缘圆)|Kids.财神(老高)|Kids.小天|
-|T3|Kids.小红帽|Go.飞廉(陈诉)|Go.皮蛋(金凌子)|||
-|钻石星耀||||||
-|T4|Kids.?(张建军)|Kids.Linda|Kids.Kimi|Kids.高亮||
-|黄金一代||||||
-|T5|sky|||||
-|没概念||||||
-|T?|lympanda||一只羊|
+|带飞级|||||
+|T1|Kids.刀刀|Kids.战神|Kids.hu(韩国字)|Go·粽子(曾伟林?)|
+|王者10星+|||||
+|T2|Kids.遗忘柚子|Kids.弦|J棒棒糖|Kids.超|
+|T2|Kids.吴老吉|Kids.?(卫峰)|Kids.元歌|Go.琴剑(徐俊)|
+|T2|Kids.MadCat||||
+|边缘王者||||
+|T3|Kids.一次就好(Marin)|Kids.星河|Kids.剑来|Kids.狂奔|
+|T3|Kids.?(潘成成）|Kids.十六(飞虎)|Kids.(源缘圆)|Kids.财神(老高)|
+|T3|Kids.小红帽|Go.飞廉(陈诉)|Go.皮蛋(金凌子)|Kids.小天|
+|T3|Kids.weiwei||||
+|钻石星耀|||||
+|T4|Kids.?(张建军)|Kids.Linda|Kids.Kimi|Kids.高亮|
+|黄金一代|||||
+|T5|sky||||
+|没概念|||||
+|T?|lympanda|一只羊||
 
 
 # 分档依据参考
