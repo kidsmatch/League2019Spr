@@ -3,16 +3,15 @@
 |分档|人员1|人员2|人员3|人员4|人员5|
 |----|----|----|----|----|----|
 |T0|Kids.糖糖(抹茶)| Go·老杨(周杨）||||
-|T1|Kids.刀刀|Kids.战神|Kids.hu(韩国字)|曾伟林?||
+|T1|Kids.刀刀|Kids.战神|Kids.hu(韩国字)|Go·粽子(曾伟林?)||
 |T2|Kids.遗忘柚子|Kids.弦|J棒棒糖|Kids.超|Kids.MadCat|
 |T2|Kids.吴老吉|Kids.?(卫峰)|Kids.元歌|Go.?(徐俊)||
 |T3|Kids.一次就好(Marin)|Kids.星河|Kids.剑来|Kids.狂奔|Kids.weiwei|
 |T3|Kids.?(潘成成）|Kids.十六(飞虎)|Kids.(源缘圆)|Kids.财神(老高)|Kids.小天|
-|T3|Kids.小红帽|||||
+|T3|Kids.小红帽|Go.飞廉(陈诉)|Go.皮蛋(金凌子)|||
 |T4|Kids.?(张建军)|Kids.Linda|Kids.Kimi|Kids.高亮||
-|T?|sky|||||
-
-|没有概念|lympanda|陈诉|一只羊|金凌子
+|T5|sky|||||
+|没有概念|lympanda||一只羊|
 
 |分档|段位|拿手位置|KidsGo对抗赛|称号|代表人物
 |----|----|----|----|----|---|
