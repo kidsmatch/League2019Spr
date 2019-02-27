@@ -8,7 +8,7 @@
 |T1|**带飞级**||||
 ||Kids.刀刀|Kids.战神|Kids.hu<br>(韩国字)|Go·粽子<br>(曾伟林?)|
 |T2|**王者10星+**||||
-||Kids.遗忘柚子|Kids.弦|J棒棒糖|Kids.超|
+||Kids.柚子|Kids.弦|J棒棒糖|Kids.超|
 ||Kids.吴老吉|Kids.?<br>(卫峰)|Kids.元歌|Go.琴剑<br>(徐俊)|
 ||Kids.<br>MadCat||||
 |T3|**边缘王者**|||
