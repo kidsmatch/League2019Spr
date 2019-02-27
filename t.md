@@ -5,7 +5,7 @@
 |T0|Kids.糖糖(抹茶)| Go·老杨(周杨）||||
 |T1|Kids.刀刀|Kids.战神|Kids.hu(韩国字)|Go·粽子(曾伟林?)||
 |T2|Kids.遗忘柚子|Kids.弦|J棒棒糖|Kids.超|Kids.MadCat|
-|T2|Kids.吴老吉|Kids.?(卫峰)|Kids.元歌|Go.?(徐俊)||
+|T2|Kids.吴老吉|Kids.?(卫峰)|Kids.元歌|Go.琴剑(徐俊)||
 |T3|Kids.一次就好(Marin)|Kids.星河|Kids.剑来|Kids.狂奔|Kids.weiwei|
 |T3|Kids.?(潘成成）|Kids.十六(飞虎)|Kids.(源缘圆)|Kids.财神(老高)|Kids.小天|
 |T3|Kids.小红帽|Go.飞廉(陈诉)|Go.皮蛋(金凌子)|||
