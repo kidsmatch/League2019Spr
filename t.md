@@ -22,10 +22,7 @@
 |sky|lympanda|||
 
 ## Go战队
-Go.粽子
-Go.飞廉(陈诉)
-Go.皮蛋(金凌子)
-Go.琴剑
+Go.粽子 Go.飞廉 Go.皮蛋 Go.琴剑 Go.枫林如火 Go.hehehe Go.蓝刀 ……
 
 # 分组建议
 
