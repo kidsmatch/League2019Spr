@@ -12,8 +12,8 @@
 ||Kids.吴老吉|Kids.?<br>(卫峰)|Kids.元歌|Go.琴剑<br>(徐俊)|
 ||Kids.<br>MadCat||||
 |T3|**边缘王者**|||
-||Kids.1次就好<br>(Marin)|Kids.星河|Kids.剑来|Kids.狂奔|
-||Kids.?<br>(潘成成）|Kids.王者虎<br>(飞虎)|Kids.斑爷<br>(源缘圆)|Kids.财神<br>(老高)|
+||Kids.1次就好|Kids.星河|Kids.剑来|Kids.狂奔|
+||Kids.?<br>(潘成成）|Kids.王者虎|Kids.斑爷|Kids.财神|
 ||Kids.小红帽|Go.飞廉<br>(陈诉)|Go.皮蛋<br>(金凌子)|Kids.小天|
 ||Kids.<br>weiwei|Kids.?<br> (一只羊)|||
 |T4|**钻石星耀**||||
@@ -25,6 +25,7 @@
 
 
 # 分档依据参考
+
 |分档|段位|拿手位置|KidsGo对抗赛|称号|代表人物
 |----|----|----|----|----|---|
 |T0  |王者50星+|5个位置|胜方MVP | 国服<br>荣耀王者起步 | Kids.?(抹茶)，Go.老杨 |
