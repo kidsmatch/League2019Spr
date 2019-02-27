@@ -12,7 +12,7 @@
 |T2|Kids.吴老吉|Kids.?<br>(卫峰)|Kids.元歌|Go.琴剑<br>(徐俊)|
 |T2|Kids.MadCat||||
 ||**边缘王者**|||
-|T3|Kids.一次就好(Marin)|Kids.星河|Kids.剑来|Kids.狂奔|
+|T3|Kids.1次就好<br>(Marin)|Kids.星河|Kids.剑来|Kids.狂奔|
 |T3|Kids.?<br>(潘成成）|Kids.王者虎<br>(飞虎)|Kids.?<br>(源缘圆)|Kids.财神<br>(老高)|
 |T3|Kids.小红帽|Go.飞廉<br>(陈诉)|Go.皮蛋<br>(金凌子)|Kids.小天|
 |T3|Kids.weiwei||||
