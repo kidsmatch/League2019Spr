@@ -6,7 +6,7 @@
 |T0|**国服级**|||||
 ||Kids.糖糖<br>(抹茶)| Go·老杨<br>(周杨）||||
 |T1|**带飞级**||||
-||Kids.刀刀|Kids.战神|Kids.hu<br>(韩国字)|Go·粽子<br>(曾伟林?)|
+||Kids.刀刀|Kids.战神|Kids.hu<br>(韩国字)|Go·粽子<br>|
 |T2|**王者十星**||||
 ||Kids.柚子|Kids.弦|J棒棒糖|Kids.超|
 ||Kids.吴老吉|Kids.?<br>(卫峰)|Kids.元歌|Kids.<br>MadCat|
