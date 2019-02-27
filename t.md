@@ -7,15 +7,15 @@
 ||Kids.糖糖<br>(抹茶)| Go·老杨<br>(周杨）||||
 |T1|**带飞级**||||
 ||Kids.刀刀|Kids.战神|Kids.hu<br>(韩国字)|Go·粽子<br>(曾伟林?)|
-|T2|**王者10星+**||||
+|T2|**王者十星**||||
 ||Kids.柚子|Kids.弦|J棒棒糖|Kids.超|
-||Kids.吴老吉|Kids.?<br>(卫峰)|Kids.元歌|Go.琴剑<br>(徐俊)|
-||Kids.<br>MadCat||||
+||Kids.吴老吉|Kids.?<br>(卫峰)|Kids.元歌|Kids.<br>MadCat|
+||Go.琴剑<br>(徐俊)||||
 |T3|**边缘王者**|||
 ||Kids.1次就好|Kids.星河|Kids.剑来|Kids.狂奔|
 ||Kids.?<br>(潘成成）|Kids.王者虎|Kids.斑爷|Kids.财神|
-||Kids.小红帽|Go.飞廉<br>(陈诉)|Go.皮蛋<br>(金凌子)|Kids.小天|
-||Kids.<br>weiwei|Kids.?<br> (一只羊)|||
+||Kids.小红帽|Kids.<br>weiwei|Kids.?<br> (一只羊)|Kids.小天|
+||Go.飞廉<br>(陈诉)|Go.皮蛋<br>(金凌子)|||
 |T4|**钻石星耀**||||
 ||Kids.?<br>(张建军)|Kids.Linda|Kids.Kimi|Kids.天亮|
 |T5|**黄金一代**||||
