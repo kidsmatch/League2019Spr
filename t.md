@@ -3,25 +3,25 @@
 
 |分档|人员1|人员2|人员3|人员4|
 |----|----|----|----|----|
-||**国服级**|||||
-|T0|Kids.糖糖<br>(抹茶)| Go·老杨<br>(周杨）||||
-||**带飞级**||||
-|T1|Kids.刀刀|Kids.战神|Kids.hu<br>(韩国字)|Go·粽子<br>(曾伟林?)|
-||**王者10星+**||||
-|T2|Kids.遗忘柚子|Kids.弦|J棒棒糖|Kids.超|
-|T2|Kids.吴老吉|Kids.?<br>(卫峰)|Kids.元歌|Go.琴剑<br>(徐俊)|
-|T2|Kids.MadCat||||
-||**边缘王者**|||
-|T3|Kids.1次就好<br>(Marin)|Kids.星河|Kids.剑来|Kids.狂奔|
-|T3|Kids.?<br>(潘成成）|Kids.王者虎<br>(飞虎)|Kids.斑爷<br>(源缘圆)|Kids.财神<br>(老高)|
-|T3|Kids.小红帽|Go.飞廉<br>(陈诉)|Go.皮蛋<br>(金凌子)|Kids.小天|
-|T3|Kids.weiwei|Kids.?(一只羊)|||
-||**钻石星耀**||||
-|T4|Kids.?<br>(张建军)|Kids.Linda|Kids.Kimi|Kids.天亮|
-||**黄金一代**||||
-|T5|sky||||
-||**没概念**||||
-|T?|lympanda|||
+|T0|**国服级**|||||
+||Kids.糖糖<br>(抹茶)| Go·老杨<br>(周杨）||||
+|T1|**带飞级**||||
+||Kids.刀刀|Kids.战神|Kids.hu<br>(韩国字)|Go·粽子<br>(曾伟林?)|
+|T2|**王者10星+**||||
+||Kids.遗忘柚子|Kids.弦|J棒棒糖|Kids.超|
+||Kids.吴老吉|Kids.?<br>(卫峰)|Kids.元歌|Go.琴剑<br>(徐俊)|
+||Kids.MadCat||||
+|T3|**边缘王者**|||
+||Kids.1次就好<br>(Marin)|Kids.星河|Kids.剑来|Kids.狂奔|
+||Kids.?<br>(潘成成）|Kids.王者虎<br>(飞虎)|Kids.斑爷<br>(源缘圆)|Kids.财神<br>(老高)|
+||Kids.小红帽|Go.飞廉<br>(陈诉)|Go.皮蛋<br>(金凌子)|Kids.小天|
+||Kids.weiwei|Kids.?(一只羊)|||
+|T4|**钻石星耀**||||
+||Kids.?<br>(张建军)|Kids.Linda|Kids.Kimi|Kids.天亮|
+|T5|**黄金一代**||||
+||sky||||
+|T?|**没概念**||||
+||lympanda|||
 
 
 # 分档依据参考
