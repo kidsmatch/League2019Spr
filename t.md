@@ -41,11 +41,7 @@
 - T4 sky
 
 ## D队 (Go战队)
-T1档的Go.粽子(Go战队的超强阿珂)领衔。 所有来自Go战队成员均在此队， 但不包含Go.老杨
-Go.粽子 Go.飞廉 Go.皮蛋 Go.琴剑 Go.枫林如火 Go.hehehe Go.蓝刀 ……
-
-# 分组建议
-
-
+- T1 Go.粽子
+- T2 Go.飞廉 Go.皮蛋 Go.琴剑 Go.枫林如火 Go.hehehe Go.蓝刀 ……
 
 
