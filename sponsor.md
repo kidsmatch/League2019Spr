@@ -23,7 +23,7 @@
  <td>
  {% if one.flag != "no" %}
     <b>{{one.desp}}</b>
-    <font color="red"> " 口号: {{ one.slogan }}"   </font>
+    <font color="red">  口号 "{{ one.slogan }}"   </font>
  {% else %}
     <font color="blue">感谢Kids&Go战队所有人的支持！</font>
  {% endif %}
