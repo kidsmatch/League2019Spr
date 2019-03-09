@@ -4,12 +4,11 @@
 
 ## 最近赛事
 
-{% assign current = 5 %}
-{% assign one = site.data.sponsors | where: "round", current | first %}
-{% assign two = site.data.sponsors | where: "round", "score" | first %}
+{% assign current = "m1" %}
+{% assign one = site.data.sponsors | where: "flag", current | first %}
 <table> 
    <tr>    
-    <td> 第<b><font color="red">{{ one.round }}</font></b>场</td>
+    <td> <b><font color="red">{{ one.desp }}</font></b> </td>
     <td> 赞助商:<br><font color="red">{{ one.sponsor }} </font></td>
       <td> 
          <b>
@@ -36,8 +35,9 @@
 | C队[棒棒糖][tc]  | 0 | 0 | 0 |--|
 | D队[Go][td]      | 0 | 0 | 0 |--|
 
-积分榜赞助商:<font color="red"> Kids.剑来 </font>
-  <span style="background-color: yellow"> 广告词待定 </span>
+{% assign two = site.data.sponsors | where: "flag", current | first %}
+积分榜赞助商:<font color="red"> {{ two.sponsor }} </font>
+  <span style="background-color: yellow"> {{ two.slogan }} </span>
             
 [rule]: rule.md
 [ta]: teama.md
