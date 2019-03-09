@@ -1,5 +1,5 @@
 ---
-title: 1队
+title: A队
 ---
 
 {% include team.md team_name=page.title %}
