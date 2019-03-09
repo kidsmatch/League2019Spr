@@ -2,6 +2,7 @@
 ---
 [回到主页](README.md)
 
+## 赞助金额及权益
 {% assign list2=site.data.sponsors | sort: "amount" | reverse %} 
 {% assign list=site.data.sponsors %} 
 <table>
@@ -31,26 +32,6 @@
 </tr>
 {% endfor %}
 </table>
-
-## 赞助商
-
-名|名称|来自|数额
------|----|----|----
-王建伟|Kids.嘲讽|C|300
-高亮|Kids.天亮|组委会|299
-王先荣|Kids.剑来|B|221
-卫峰|Kids.土豆熊|A|200
-张新宇|Kids.1次就好|A|200
-许晓曦|Kids.悠悠|B|200
-王延鹤|Kids.鲁班|B|200
-曾伟林|Go·粽子|D|200
-张振华|Kids.Linda|A|100
-祁文娟|J棒棒糖|C|100
-孟丽娜|sky|C|100
-陈诉|Go·飞廉|D|100
-邵江涛|刀刀|C|50
-夷扬|Kids.灰漾|C|50
-合计|--|--|2320
 
 ## 赞助费合计
 本届共收取赞助2320元。上届遗留286.2元，共计2606.2元。
