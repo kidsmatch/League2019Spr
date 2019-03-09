@@ -1,20 +1,8 @@
-# Kids联赛2018 官方主页
+# Kids2019春季赛 官方主页
 ### [战绩截图](https://m.weibo.cn/u/6852703787) \| [规则][rule] \| [赞助商][spr] \| [英雄][hero]
 ---
 
-<table> 
-   <tr>    
-    <td> 颁奖嘉年华</td>
-    <td> 赞助商:Kids.剑来(先荣)</td>
-      <td> 
-         <b>
-            <font color="red">
-               <span style="background-color: yellow"> Nirvana祝你早日上王者</span>
-            </font>
-         </b> 
-      </td>
-   </tr>
-</table>
+
 
 <h2> 数据榜 <span style="background-color: yellow"> Hot! </span> </h2>
 
@@ -27,17 +15,19 @@
 
 | 队名            |胜局 | 负局 |  积分 |排名
 |-------------   | --: | --: | --: |---|
-| 1队[荡秋千][t1]  | 14  | 6 | 27 |<font color="red"> <span style="background-color: yellow">冠军</span>  </font>|
-| 2队[超有趣][t2]  |9  | 11 | 14 |亚军|
-| 3队[全能冠军][t3]| 7 | 13 | 13 |季军|
+| A队[Darling][ta] | 0 | 0 | 0 |--|
+| B队[欢乐颂][tb]  | 0 | 0 | 0 |--|
+| C队[棒棒糖][tc]  | 0 | 0 | 0 |--|
+| D队[Go][td]      | 0 | 0 | 0 |--|
 
-积分榜赞助商:<font color="red"> Go·Nunu </font>
-  <span style="background-color: yellow"> 不忘初心 </span>
+积分榜赞助商:<font color="red"> Kids.剑来 </font>
+  <span style="background-color: yellow"> 广告词待定 </span>
             
 [rule]: rule.md
-[t1]: team1.md
-[t2]: team2.md
-[t3]: team3.md
+[ta]: teama.md
+[tb]: teamb.md
+[tc]: teamc.md
+[td]: teamd.md
 [spr]: sponsor.md
 [r0]: round0.md
 [r1]: round1.md
