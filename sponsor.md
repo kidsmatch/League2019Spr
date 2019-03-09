@@ -2,8 +2,8 @@
 ---
 [回到主页](README.md)
 
-{% assign list=site.data.sponsors | sort: "amount" | reverse %} 
-
+{% assign list2=site.data.sponsors | sort: "amount" | reverse %} 
+{% assign list=site.data.sponsors %} 
 <table>
  <tr>
     <th>赞助商</th>
