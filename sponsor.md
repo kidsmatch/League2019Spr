@@ -1,15 +1,14 @@
 赞助商
 ---
+[回到主页](README.md)
 
 {% assign list=site.data.sponsors | sort: "amount" | reverse %} 
-
-
 
 <table>
  <tr>
     <th>赞助商</th>
     <th>金额</th>
-    <th>支付</th>
+    <th>姓名</th>
     <th>权益</th>
   </tr>
 
@@ -18,14 +17,14 @@
 <tr>
   <td>  {{ one.sponsor }}  </td>
   <td>  {{ one.amount }}    </td>
- <td>  {{ one.pay }}    </td>
+ <td>  {{ one.name }}    </td>
  
  <td>
- {% if one.round != "0" %}
-    <b>第{{one.round}}轮</b>
+ {% if one.flag != "no" %}
+    <b>{{one.desp}}</b>
     <font color="red">"{{ one.slogan }}"   </font>
  {% else %}
-    <font color="blue">感谢Kids战队所有人的支持！</font>
+    <font color="blue">感谢Kids&Go战队所有人的支持！</font>
  {% endif %}
  
  </td>
