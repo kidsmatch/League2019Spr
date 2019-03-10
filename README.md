@@ -35,7 +35,7 @@
 | C队[棒棒糖][tc]  | 0 | 0 | 0 |--|
 | D队[Go][td]      | 0 | 0 | 0 |--|
 
-{% assign two = site.data.sponsors | where: "flag", current | first %}
+{% assign two = site.data.sponsors | where: "flag", "score" | first %}
 积分榜赞助商:<font color="red"> {{ two.sponsor }} </font>
   <span style="background-color: yellow"> {{ two.slogan }} </span>
             
