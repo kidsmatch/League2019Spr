@@ -60,5 +60,5 @@
 [p5]: pos5.md
 [sche]: schedule.md
 
-本页面构建于 {{ site.time }}
+本页面 构建于 {{ site.time }}
 
