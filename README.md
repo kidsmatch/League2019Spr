@@ -11,6 +11,7 @@
     <td> <b><font color="red">{{ one.desp }}</font></b> </td>
     <td> 赞助商:<br><font color="red">{{ one.sponsor }} </font></td>
       <td> 
+         广告词<br>
          <b>
             <font color="red">
                <span style="background-color: yellow">{{ one.slogan }}</span>
