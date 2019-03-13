@@ -4,7 +4,7 @@
 
 ## 最近赛事
 
-{% assign current = "m4" %}
+{% assign current = "m5" %}
 {% assign one = site.data.sponsors | where: "flag", current | first %}
 <table> 
    <tr>    
@@ -23,9 +23,9 @@
 
 |计划日期|时间|比赛双方|
 |--------|------|----|
-|**3月13日(周三)** | **22:00** | [A队][ta] VS [D队][td] |
+|**3月14日(周四)** | **22:00** | [B队][ta] VS [D队][td] |
 
-- 主播: (来自B及C队) Kids.小天 Kids.小策策
+- 主播: 待定
 
 ## 总积分榜
 
