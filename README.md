@@ -31,10 +31,10 @@
 
 | 队名            |胜局 | 负局 |  积分 |排名
 |-------------   | --: | --: | --: |---|
-| A队[Darling][ta] | 0 | 4 | 0 | 4|
+| A队[Darling][ta] | 1 | 5 | 1 | 4|
 | B队[欢乐颂][tb]  | 2 | 0 | 2 | 2|
 | C队[棒棒糖][tc]  | 3 | 1 | 3 | 1|
-| D队[Go][td]      | 1 | 1 | 1 | 3|
+| D队[Go][td]      | 2 | 2 | 2 | 2|
 
 {% assign two = site.data.sponsors | where: "flag", "score" | first %}
 积分榜赞助商:<font color="red"> {{ two.sponsor }} </font>
