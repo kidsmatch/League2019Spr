@@ -4,7 +4,7 @@
 
 ## 最近赛事
 
-{% assign current = "m5" %}
+{% assign current = "m6" %}
 {% assign one = site.data.sponsors | where: "flag", current | first %}
 <table> 
    <tr>    
@@ -23,7 +23,7 @@
 
 |计划日期|时间|比赛双方|
 |--------|------|----|
-|**3月14日(周四)** | **22:00** | [B队][ta] VS [D队][td] |
+|**3月15日(周五)** | **22:00** | [B队][ta] VS [C队][tc] |
 
 - 主播: (C队)Kids.277 Kids.月光 Kids.吴老吉
 
