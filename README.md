@@ -4,7 +4,7 @@
 
 ## 最近赛事
 
-{% assign current = "m6" %}
+{% assign current = "h1" %}
 {% assign one = site.data.sponsors | where: "flag", current | first %}
 <table> 
    <tr>    
@@ -23,18 +23,18 @@
 
 |计划日期|时间|比赛双方|
 |--------|------|----|
-|**3月15日(周五)** | **22:00** | [B队][ta] VS [C队][tc] |
+|**3月25日(周一)** | **22:00** | [A队][ta] VS [C队][tc] |
 
-- 主播: (D队)Go·粽子 Go·hehele
+- 主播: 待定
 
 ## 总积分榜
 
 | 队名            |胜局 | 负局 |  积分 |排名
 |-------------   | --: | --: | --: |---|
-| A队[Darling][ta] | 1 | 5 | 1 | 4|
-| B队[欢乐颂][tb]  | 2 | 2 | 2 | 3|
-| C队[棒棒糖][tc]  | 3 | 1 | 3 | 2|
-| D队[Go][td]      | 4 | 2 | 4 | 1|
+| A队[Darling][ta] | 1 | 5 | 1 | R4|
+| B队[欢乐颂][tb]  | 2 | 4 | 2 | R3|
+| C队[棒棒糖][tc]  | 5 | 1 | 5 | R1|
+| D队[Go][td]      | 4 | 2 | 4 | R2|
 
 {% assign two = site.data.sponsors | where: "flag", "score" | first %}
 积分榜赞助商:<font color="red"> {{ two.sponsor }} </font>
