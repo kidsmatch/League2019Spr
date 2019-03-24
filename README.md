@@ -16,7 +16,7 @@
     <td> <b><font color="red">{{ one.desp }}</font></b> </td>
     <td> <b><font color="red">{{ final.desp }}</font></b> </td>
     <td> <b><font color="red">{{ two.desp }}</font></b> </td>
-    <!--td> 赞助商:<br><font color="red">{{ one.sponsor }} </font></td>
+    <td> 赞助商:<br><font color="red">{{ one.sponsor }} </font></td>
       <td> 
          广告词<br>
          <b>
@@ -24,7 +24,7 @@
                <span style="background-color: yellow">{{ one.slogan }}</span>
             </font>
          </b> 
-      </td-->
+      </td>
    </tr>
 </table>
 
