@@ -4,18 +4,12 @@
 
 ## 最近赛事
 
-{% assign c1 = "h1" %}
-{% assign one = site.data.sponsors | where: "flag", c1 | first %}
-{% assign c2 = "h2" %}
-{% assign two = site.data.sponsors | where: "flag", c2 | first %}
-{% assign final = site.data.sponsors | where: "flag", "final" | first %}
 
-
+{% assign current = "h1" %}
+{% assign one = site.data.sponsors | where: "flag", current | first %}
 <table> 
    <tr>    
     <td> <b><font color="red">{{ one.desp }}</font></b> </td>
-    <td> <b><font color="red">{{ final.desp }}</font></b> </td>
-    <td> <b><font color="red">{{ two.desp }}</font></b> </td>
     <td> 赞助商:<br><font color="red">{{ one.sponsor }} </font></td>
       <td> 
          广告词<br>
