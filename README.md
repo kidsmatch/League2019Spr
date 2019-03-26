@@ -5,7 +5,7 @@
 ## 最近赛事
 
 
-{% assign current = "h1" %}
+{% assign current = "h2" %}
 {% assign one = site.data.sponsors | where: "flag", current | first %}
 <table> 
    <tr>    
@@ -26,8 +26,8 @@
 |--------|------|----|
 |**3月25日(周一)** | **22:00** | [A队][ta] VS [C队][tc] |
 
-- 主播: （B队） Kids.小天
-- 三局两胜。第一局C先手，第二局A先手。若有第三局，抽签。
+- 主播: （C队） Kids.277（一只羊）
+- 三局两胜。第一局？先手，第二局？先手。若有第三局，抽签。
 
 ## 总积分榜
 
